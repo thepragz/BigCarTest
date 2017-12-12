@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
+		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
+		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A121FCEEE0600433A7D /* Main.storyboard */; };
@@ -20,7 +23,6 @@
 		52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C672201FD93945002D55D1 /* FifthViewController.swift */; };
 		52C672251FD94F32002D55D1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C672241FD94F31002D55D1 /* inbox1600.png */; };
 		52D5C7A41FDBBAF80053DE23 /* PutinProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */; };
-		52EF894A1FDBEE3D002CE36A /* bigcar Trip.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF89491FDBEE3C002CE36A /* bigcar Trip.png */; };
 		52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF894B1FDBF2BD002CE36A /* MytripsImage.png */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johor.jpeg; sourceTree = SOURCE_ROOT; };
+		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabah.jpeg; sourceTree = SOURCE_ROOT; };
+		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perak.jpeg; sourceTree = SOURCE_ROOT; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +66,6 @@
 		52C672201FD93945002D55D1 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		52C672241FD94F31002D55D1 /* inbox1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inbox1600.png; path = ../../../../Downloads/inbox1600.png; sourceTree = "<group>"; };
 		52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = ../../../../Downloads/PutinProfile.jpg; sourceTree = "<group>"; };
-		52EF89491FDBEE3C002CE36A /* bigcar Trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigcar Trip.png"; path = "../../../bigcar Trip.png"; sourceTree = "<group>"; };
 		52EF894B1FDBF2BD002CE36A /* MytripsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MytripsImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +117,8 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
+				52617A1E1FDFE2180012FF28 /* sabah.jpeg */,
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
 				52C18A121FCEEE0600433A7D /* Main.storyboard */,
@@ -121,8 +127,8 @@
 				52C6721E1FD938D3002D55D1 /* FourthViewController.swift */,
 				52C672201FD93945002D55D1 /* FifthViewController.swift */,
 				52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */,
-				52EF89491FDBEE3C002CE36A /* bigcar Trip.png */,
 				52EF894B1FDBF2BD002CE36A /* MytripsImage.png */,
+				52617A1C1FDFE1520012FF28 /* johor.jpeg */,
 				52C672241FD94F31002D55D1 /* inbox1600.png */,
 				52C18A151FCEEE0600433A7D /* Assets.xcassets */,
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
@@ -258,11 +264,13 @@
 			files = (
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
 				52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */,
-				52EF894A1FDBEE3D002CE36A /* bigcar Trip.png in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
 				52D5C7A41FDBBAF80053DE23 /* PutinProfile.jpg in Resources */,
+				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
 				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
+				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
 				52C672251FD94F32002D55D1 /* inbox1600.png in Resources */,
+				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
