@@ -10,6 +10,8 @@
 		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
 		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
 		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
+		52617A271FE139590012FF28 /* kedah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A261FE139590012FF28 /* kedah.jpeg */; };
+		52617A291FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A121FCEEE0600433A7D /* Main.storyboard */; };
@@ -22,7 +24,7 @@
 		52C672251FD94F32002D55D1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C672241FD94F31002D55D1 /* inbox1600.png */; };
 		52D5C7A41FDBBAF80053DE23 /* PutinProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */; };
 		52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF894B1FDBF2BD002CE36A /* MytripsImage.png */; };
-		B852C350B1BA0234B91A7049 /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8127B01898527F41D7A297 /* Pods_tab_test.framework */; };
+		E6FF88366DA370A581883BED /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8127B01898527F41D7A297 /* Pods_tab_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johor.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabah.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perak.jpeg; sourceTree = SOURCE_ROOT; };
+		52617A261FE139590012FF28 /* kedah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kedah.jpeg; sourceTree = SOURCE_ROOT; };
+		52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBigCarImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -68,11 +72,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52C18A061FCEEE0600433A7D /* Frameworks */ = {
+		52617A241FE017770012FF28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B852C350B1BA0234B91A7049 /* Pods_tab_test.framework in Frameworks */,
+				E6FF88366DA370A581883BED /* Pods_tab_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +142,7 @@
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
 				52C18A121FCEEE0600433A7D /* Main.storyboard */,
+				52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */,
 				52C6721A1FD936A3002D55D1 /* SecondViewController.swift */,
 				52C6721C1FD93727002D55D1 /* ThirdViewController.swift */,
 				52C6721E1FD938D3002D55D1 /* FourthViewController.swift */,
@@ -146,6 +151,7 @@
 				52EF894B1FDBF2BD002CE36A /* MytripsImage.png */,
 				52617A1C1FDFE1520012FF28 /* johor.jpeg */,
 				52C672241FD94F31002D55D1 /* inbox1600.png */,
+				52617A261FE139590012FF28 /* kedah.jpeg */,
 				52C18A151FCEEE0600433A7D /* Assets.xcassets */,
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
 				52C18A1A1FCEEE0600433A7D /* Info.plist */,
@@ -162,10 +168,10 @@
 			buildPhases = (
 				005113D8E02B78E394ABB119 /* [CP] Check Pods Manifest.lock */,
 				52C18A051FCEEE0600433A7D /* Sources */,
-				52C18A061FCEEE0600433A7D /* Frameworks */,
 				52C18A071FCEEE0600433A7D /* Resources */,
-				6A81140C4DDE2DB37055AD31 /* [CP] Embed Pods Frameworks */,
 				2CF6F367073F800374D9299C /* [CP] Copy Pods Resources */,
+				52617A241FE017770012FF28 /* Frameworks */,
+				76162DCBC4713B196D9D81FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +276,7 @@
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
 				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
 				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
+				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
 				52C672251FD94F32002D55D1 /* inbox1600.png in Resources */,
 				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
 			);
@@ -325,7 +332,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab test/Pods-tab test-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A81140C4DDE2DB37055AD31 /* [CP] Embed Pods Frameworks */ = {
+		76162DCBC4713B196D9D81FF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,6 +366,7 @@
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
+				52617A291FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift in Sources */,
 				52C6721F1FD938D3002D55D1 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
