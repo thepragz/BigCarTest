@@ -12,6 +12,7 @@
 		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
 		52617A271FE139590012FF28 /* kedah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A261FE139590012FF28 /* kedah.jpeg */; };
 		52617A291FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */; };
+		52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A121FCEEE0600433A7D /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perak.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A261FE139590012FF28 /* kedah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kedah.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBigCarImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
+				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
 				52617A1E1FDFE2180012FF28 /* sabah.jpeg */,
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
@@ -363,6 +366,7 @@
 			files = (
 				52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
+				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
