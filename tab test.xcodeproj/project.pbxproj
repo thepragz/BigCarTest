@@ -22,9 +22,10 @@
 		52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721C1FD93727002D55D1 /* ThirdViewController.swift */; };
 		52C6721F1FD938D3002D55D1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721E1FD938D3002D55D1 /* FourthViewController.swift */; };
 		52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C672201FD93945002D55D1 /* FifthViewController.swift */; };
-		52C672251FD94F32002D55D1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C672241FD94F31002D55D1 /* inbox1600.png */; };
-		52D5C7A41FDBBAF80053DE23 /* PutinProfile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */; };
 		52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF894B1FDBF2BD002CE36A /* MytripsImage.png */; };
+		57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */; };
+		57777B4D1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4C1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift */; };
+		57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */; };
 		E6FF88366DA370A581883BED /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8127B01898527F41D7A297 /* Pods_tab_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,9 +67,10 @@
 		52C6721C1FD93727002D55D1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		52C6721E1FD938D3002D55D1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		52C672201FD93945002D55D1 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
-		52C672241FD94F31002D55D1 /* inbox1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inbox1600.png; path = ../../../../Downloads/inbox1600.png; sourceTree = "<group>"; };
-		52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = ../../../../Downloads/PutinProfile.jpg; sourceTree = "<group>"; };
 		52EF894B1FDBF2BD002CE36A /* MytripsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MytripsImage.png; sourceTree = "<group>"; };
+		57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		57777B4C1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		EB8127B01898527F41D7A297 /* Pods_tab_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B2AA82E2803C56697D1C6D /* Pods-tab test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,23 +143,24 @@
 			children = (
 				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
 				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
+				57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */,
 				52617A1E1FDFE2180012FF28 /* sabah.jpeg */,
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
 				52C18A121FCEEE0600433A7D /* Main.storyboard */,
+				57777B4C1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift */,
 				52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */,
 				52C6721A1FD936A3002D55D1 /* SecondViewController.swift */,
 				52C6721C1FD93727002D55D1 /* ThirdViewController.swift */,
 				52C6721E1FD938D3002D55D1 /* FourthViewController.swift */,
 				52C672201FD93945002D55D1 /* FifthViewController.swift */,
-				52D5C7A31FDBBAF60053DE23 /* PutinProfile.jpg */,
 				52EF894B1FDBF2BD002CE36A /* MytripsImage.png */,
 				52617A1C1FDFE1520012FF28 /* johor.jpeg */,
-				52C672241FD94F31002D55D1 /* inbox1600.png */,
 				52617A261FE139590012FF28 /* kedah.jpeg */,
 				52C18A151FCEEE0600433A7D /* Assets.xcassets */,
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
 				52C18A1A1FCEEE0600433A7D /* Info.plist */,
+				57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */,
 			);
 			path = "tab test";
 			sourceTree = "<group>";
@@ -275,12 +278,10 @@
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
 				52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
-				52D5C7A41FDBBAF80053DE23 /* PutinProfile.jpg in Resources */,
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
 				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
 				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
 				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
-				52C672251FD94F32002D55D1 /* inbox1600.png in Resources */,
 				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,12 +366,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */,
+				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
+				57777B4D1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
 				52617A291FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift in Sources */,
+				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
 				52C6721F1FD938D3002D55D1 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

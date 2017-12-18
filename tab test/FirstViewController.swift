@@ -10,8 +10,9 @@ import UIKit
 
 
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     @IBOutlet weak var sampleView: UICollectionView!
+    let imageArray = ["Perak.jpeg","sabah.jpeg","johor.jpeg","kedah.jpeg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,15 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return imageArray.count
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
+        cell.imageView.image = UIImage(named: imageArray[indexPath.row])
+        
+        return cell
+    }
 
 }
 
