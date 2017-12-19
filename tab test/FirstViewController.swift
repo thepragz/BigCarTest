@@ -13,6 +13,8 @@ import UIKit
 class FirstViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     @IBOutlet weak var sampleView: UICollectionView!
     let imageArray = ["Perak.jpeg","sabah.jpeg","johor.jpeg","kedah.jpeg"]
+    let titleArray = ["Perak","Sabah","Johor","Kedah"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

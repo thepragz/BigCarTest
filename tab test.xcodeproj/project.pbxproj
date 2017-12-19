@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */; };
+		5215D8931FE8FB5000F842B1 /* Sample-Cat-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */; };
+		5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88B1FE8FB4F00F842B1 /* airport.jpg */; };
+		5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */; };
+		5215D8961FE8FB5000F842B1 /* Sample-Cat-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */; };
+		5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */; };
+		5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */; };
+		5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8901FE8FB5000F842B1 /* teambuilding.jpg */; };
+		5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8911FE8FB5000F842B1 /* events.jpg */; };
 		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
 		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
 		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
@@ -48,6 +57,15 @@
 
 /* Begin PBXFileReference section */
 		1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.release.xcconfig"; sourceTree = "<group>"; };
+		5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "student-summercamp.jpg"; sourceTree = "<group>"; };
+		5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sample-Cat-2.jpg"; sourceTree = "<group>"; };
+		5215D88B1FE8FB4F00F842B1 /* airport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airport.jpg; sourceTree = "<group>"; };
+		5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MPV-Rental.jpg"; sourceTree = "<group>"; };
+		5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sample-Cat-1.jpg"; sourceTree = "<group>"; };
+		5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sightseeing-Tour.jpg"; sourceTree = "<group>"; };
+		5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adventure-tour.jpg"; sourceTree = "<group>"; };
+		5215D8901FE8FB5000F842B1 /* teambuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teambuilding.jpg; sourceTree = "<group>"; };
+		5215D8911FE8FB5000F842B1 /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
 		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johor.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabah.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perak.jpeg; sourceTree = SOURCE_ROOT; };
@@ -118,6 +136,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */,
+				5215D88B1FE8FB4F00F842B1 /* airport.jpg */,
+				5215D8911FE8FB5000F842B1 /* events.jpg */,
+				5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */,
+				5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */,
+				5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */,
+				5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */,
+				5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */,
+				5215D8901FE8FB5000F842B1 /* teambuilding.jpg */,
+			);
+			name = CategoriesImageSource;
+			path = "tab test/CategoriesImageSource";
+			sourceTree = SOURCE_ROOT;
+		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +196,7 @@
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
 				52C18A1A1FCEEE0600433A7D /* Info.plist */,
 				57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */,
+				5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */,
 			);
 			path = "tab test";
 			sourceTree = "<group>";
@@ -279,10 +315,19 @@
 				52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
+				5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */,
 				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
 				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
+				5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */,
+				5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */,
 				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
+				5215D8931FE8FB5000F842B1 /* Sample-Cat-2.jpg in Resources */,
+				5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */,
 				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
+				5215D8961FE8FB5000F842B1 /* Sample-Cat-1.jpg in Resources */,
+				5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */,
+				5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */,
+				5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

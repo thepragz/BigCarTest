@@ -10,8 +10,8 @@ import UIKit
 
 class CategoryViewController: UIViewController , UICollectionViewDataSource, UICollectionViewDelegate{
 
-    var images = ["Perak.jpeg", "johor.jpeg", "kedah.jpeg"]
-    var titleArray = ["Village", "City", "Outskirt"]
+    var images = ["airport.jpg", "adventure-tour.jpg", "events.jpg","MPV-Rental.jpg","Sightseeing-Tour.jpg","student-summercamp.jpg","teambuilding.jpg"]
+    var titleArray = ["Airport Transfer", "Adventure Tour", "Event & Incentive Group","MPV Van Rental", "Sightseeing Tour", "Student Summer Camp", "Team Building"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
