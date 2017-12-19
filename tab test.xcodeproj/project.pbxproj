@@ -16,6 +16,8 @@
 		5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */; };
 		5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8901FE8FB5000F842B1 /* teambuilding.jpg */; };
 		5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8911FE8FB5000F842B1 /* events.jpg */; };
+		5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 5215D89B1FE90ACF00F842B1 /* inbox1600.png */; };
+		5215D8A01FE9243F00F842B1 /* TripsInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */; };
 		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
 		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
 		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
@@ -66,9 +68,11 @@
 		5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adventure-tour.jpg"; sourceTree = "<group>"; };
 		5215D8901FE8FB5000F842B1 /* teambuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teambuilding.jpg; sourceTree = "<group>"; };
 		5215D8911FE8FB5000F842B1 /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
+		5215D89B1FE90ACF00F842B1 /* inbox1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox1600.png; sourceTree = "<group>"; };
+		5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsInfoCollectionViewCell.swift; sourceTree = "<group>"; };
 		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = johor.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sabah.jpeg; sourceTree = SOURCE_ROOT; };
-		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perak.jpeg; sourceTree = SOURCE_ROOT; };
+		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Perak.jpeg; path = "tab test/Perak.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A261FE139590012FF28 /* kedah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kedah.jpeg; sourceTree = SOURCE_ROOT; };
 		52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreBigCarImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -153,6 +157,14 @@
 			path = "tab test/CategoriesImageSource";
 			sourceTree = SOURCE_ROOT;
 		};
+		5215D89E1FE90E1F00F842B1 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
+			);
+			name = ImageSource;
+			sourceTree = "<group>";
+		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
@@ -176,17 +188,19 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
-				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
+				5215D89E1FE90E1F00F842B1 /* ImageSource */,
 				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
 				57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */,
 				52617A1E1FDFE2180012FF28 /* sabah.jpeg */,
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
 				52C18A121FCEEE0600433A7D /* Main.storyboard */,
+				5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */,
 				57777B4C1FE7C0F600D8BE0F /* CategoryCollectionViewCell.swift */,
 				52617A281FE13D7F0012FF28 /* ExploreBigCarImageCollectionViewCell.swift */,
 				52C6721A1FD936A3002D55D1 /* SecondViewController.swift */,
 				52C6721C1FD93727002D55D1 /* ThirdViewController.swift */,
+				5215D89B1FE90ACF00F842B1 /* inbox1600.png */,
 				52C6721E1FD938D3002D55D1 /* FourthViewController.swift */,
 				52C672201FD93945002D55D1 /* FifthViewController.swift */,
 				52EF894B1FDBF2BD002CE36A /* MytripsImage.png */,
@@ -314,6 +328,7 @@
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
 				52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
+				5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */,
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
 				5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */,
 				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
@@ -413,6 +428,7 @@
 				52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
+				5215D8A01FE9243F00F842B1 /* TripsInfoCollectionViewCell.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,

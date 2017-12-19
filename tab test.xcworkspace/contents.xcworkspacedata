@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PutinProfile.jpg">
+   </FileRef>
+   <FileRef
       location = "group:tab test.xcodeproj">
    </FileRef>
    <FileRef
