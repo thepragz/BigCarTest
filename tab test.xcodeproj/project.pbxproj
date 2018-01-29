@@ -17,22 +17,41 @@
 		5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8901FE8FB5000F842B1 /* teambuilding.jpg */; };
 		5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8911FE8FB5000F842B1 /* events.jpg */; };
 		5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 5215D89B1FE90ACF00F842B1 /* inbox1600.png */; };
-		5215D8A01FE9243F00F842B1 /* TripsInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */; };
+		52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */; };
+		52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */; };
+		52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */; };
+		52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A332011E10300A52EBB /* TripAboutTableViewCell.swift */; };
+		52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A392011E26C00A52EBB /* TripMapTableViewCell.swift */; };
+		52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */; };
+		52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */; };
+		52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */; };
+		524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */; };
+		524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E241FF64C77002A8F86 /* Main.storyboard */; };
+		524D4E711FFCD8AA002A8F86 /* Logo_final_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E701FFCD889002A8F86 /* Logo_final_v2.png */; };
+		524D4E731FFCE123002A8F86 /* facebook_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */; };
+		525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDA92007D4DD0095583D /* WelcomeViewController.swift */; };
+		525FEDAF2007D5730095583D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDAE2007D5730095583D /* LoginViewController.swift */; };
+		525FEDB12007D5CA0095583D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB02007D5CA0095583D /* RegisterViewController.swift */; };
+		525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */; };
+		525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */; };
 		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
 		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
 		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
 		52617A271FE139590012FF28 /* kedah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A261FE139590012FF28 /* kedah.jpeg */; };
 		52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */; };
-		528509F01FEE290400DA834B /* TripsInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528509EF1FEE290400DA834B /* TripsInfoTableViewCell.swift */; };
+		52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */; };
+		52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */; };
+		52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672684201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
-		52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A121FCEEE0600433A7D /* Main.storyboard */; };
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
 		52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */; };
 		52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721A1FD936A3002D55D1 /* SecondViewController.swift */; };
 		52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721C1FD93727002D55D1 /* ThirdViewController.swift */; };
-		52C6721F1FD938D3002D55D1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721E1FD938D3002D55D1 /* FourthViewController.swift */; };
-		52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C672201FD93945002D55D1 /* FifthViewController.swift */; };
+		52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */; };
+		52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */; };
+		52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */; };
+		52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */; };
 		52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF894B1FDBF2BD002CE36A /* MytripsImage.png */; };
 		57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */; };
 		57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */; };
@@ -68,18 +87,35 @@
 		5215D8901FE8FB5000F842B1 /* teambuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teambuilding.jpg; sourceTree = "<group>"; };
 		5215D8911FE8FB5000F842B1 /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
 		5215D89B1FE90ACF00F842B1 /* inbox1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox1600.png; sourceTree = "<group>"; };
-		5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTitleTableViewCell.swift; sourceTree = "<group>"; };
+		52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPriceTableViewCell.swift; sourceTree = "<group>"; };
+		52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripIconsTableViewCell.swift; sourceTree = "<group>"; };
+		52168A332011E10300A52EBB /* TripAboutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAboutTableViewCell.swift; sourceTree = "<group>"; };
+		52168A392011E26C00A52EBB /* TripMapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapTableViewCell.swift; sourceTree = "<group>"; };
+		52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripActionButtonTableViewCell.swift; sourceTree = "<group>"; };
+		52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripReviewsTableViewCell.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsCells/TripReviewsTableViewCell.swift"; sourceTree = "<absolute>"; };
+		52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripDetailsTableViewController.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsTableViewController.swift"; sourceTree = "<absolute>"; };
+		524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewerDetails.xib; sourceTree = "<group>"; };
+		524D4E241FF64C77002A8F86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		524D4E701FFCD889002A8F86 /* Logo_final_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_final_v2.png; sourceTree = "<group>"; };
+		524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_icon@3x.png"; sourceTree = "<group>"; };
+		525FEDA92007D4DD0095583D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		525FEDAE2007D5730095583D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		525FEDB02007D5CA0095583D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingOptionsTableViewController.swift; sourceTree = "<group>"; };
+		525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsTableViewController.swift; sourceTree = "<group>"; };
 		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = johor.jpeg; path = "tab test/johor.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sabah.jpeg; path = "tab test/sabah.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Perak.jpeg; path = "tab test/Perak.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A261FE139590012FF28 /* kedah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kedah.jpeg; path = "tab test/kedah.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerInfoBookingDetailTableViewCell.swift; sourceTree = "<group>"; };
+		52672684201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSummaryBookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		528509EC1FEA4FD100DA834B /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/PutinProfile.jpg"; sourceTree = "<absolute>"; };
-		528509EF1FEE290400DA834B /* TripsInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsInfoTableViewCell.swift; sourceTree = "<group>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		52C18A131FCEEE0600433A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C18A151FCEEE0600433A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C18A181FCEEE0600433A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52C18A1A1FCEEE0600433A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,8 +123,10 @@
 		52C18A2A1FCEEE0600433A7D /* tab testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6721A1FD936A3002D55D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		52C6721C1FD93727002D55D1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		52C6721E1FD938D3002D55D1 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		52C672201FD93945002D55D1 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateSelectorTableViewCell.swift; sourceTree = "<group>"; };
+		52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTimeSelectorTableViewCell.swift; sourceTree = "<group>"; };
+		52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackageQuantityTableViewCell.swift; sourceTree = "<group>"; };
+		52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTotalPriceTableViewCell.swift; sourceTree = "<group>"; };
 		52EF894B1FDBF2BD002CE36A /* MytripsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MytripsImage.png; sourceTree = "<group>"; };
 		57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +208,69 @@
 			name = ImageSource;
 			sourceTree = "<group>";
 		};
+		52168A2C2011DD5E00A52EBB /* TripDetailsCells */ = {
+			isa = PBXGroup;
+			children = (
+				52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */,
+				52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */,
+				52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */,
+				52168A332011E10300A52EBB /* TripAboutTableViewCell.swift */,
+				52168A392011E26C00A52EBB /* TripMapTableViewCell.swift */,
+				52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */,
+				52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */,
+			);
+			path = TripDetailsCells;
+			sourceTree = "<group>";
+		};
+		525FEDAB2007D4E90095583D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				525FEDA92007D4DD0095583D /* WelcomeViewController.swift */,
+				525FEDAD2007D54C0095583D /* Login */,
+				525FEDAC2007D5470095583D /* Register */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		525FEDAC2007D5470095583D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				525FEDB02007D5CA0095583D /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		525FEDAD2007D54C0095583D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				525FEDAE2007D5730095583D /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		525FEDB62008830A0095583D /* TripDetailsflow */ = {
+			isa = PBXGroup;
+			children = (
+				52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */,
+				525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */,
+				525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */,
+				5267267F201F049700F151AB /* BookingDetailsCell */,
+				52EEE9A1201470CD00D4C48B /* BookingOptionsCell */,
+				52168A2C2011DD5E00A52EBB /* TripDetailsCells */,
+			);
+			path = TripDetailsflow;
+			sourceTree = "<group>";
+		};
+		5267267F201F049700F151AB /* BookingDetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */,
+				52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */,
+				52672684201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift */,
+			);
+			path = BookingDetailsCell;
+			sourceTree = "<group>";
+		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
@@ -193,25 +294,37 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				525FEDB62008830A0095583D /* TripDetailsflow */,
+				525FEDAB2007D4E90095583D /* Welcome */,
+				524D4E701FFCD889002A8F86 /* Logo_final_v2.png */,
+				524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */,
 				5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */,
 				5215D89E1FE90E1F00F842B1 /* ImageSource */,
 				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
 				57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */,
+				524D4E241FF64C77002A8F86 /* Main.storyboard */,
 				52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */,
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
-				52C18A121FCEEE0600433A7D /* Main.storyboard */,
-				528509EF1FEE290400DA834B /* TripsInfoTableViewCell.swift */,
-				5215D89F1FE9243E00F842B1 /* TripsInfoCollectionViewCell.swift */,
+				524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */,
 				52C6721A1FD936A3002D55D1 /* SecondViewController.swift */,
 				52C6721C1FD93727002D55D1 /* ThirdViewController.swift */,
-				52C6721E1FD938D3002D55D1 /* FourthViewController.swift */,
-				52C672201FD93945002D55D1 /* FifthViewController.swift */,
 				52C18A151FCEEE0600433A7D /* Assets.xcassets */,
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
 				52C18A1A1FCEEE0600433A7D /* Info.plist */,
 				57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */,
 			);
 			path = "tab test";
+			sourceTree = "<group>";
+		};
+		52EEE9A1201470CD00D4C48B /* BookingOptionsCell */ = {
+			isa = PBXGroup;
+			children = (
+				52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */,
+				52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */,
+				52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */,
+				52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */,
+			);
+			path = BookingOptionsCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,18 +442,21 @@
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
 				5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */,
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
+				524D4E711FFCD8AA002A8F86 /* Logo_final_v2.png in Resources */,
 				5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */,
-				52C18A141FCEEE0600433A7D /* Main.storyboard in Resources */,
 				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
 				5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */,
 				5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */,
 				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
+				524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */,
 				5215D8931FE8FB5000F842B1 /* Sample-Cat-2.jpg in Resources */,
 				5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */,
+				524D4E731FFCE123002A8F86 /* facebook_icon@3x.png in Resources */,
 				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
 				5215D8961FE8FB5000F842B1 /* Sample-Cat-1.jpg in Resources */,
 				5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */,
 				5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */,
+				524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */,
 				5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,17 +540,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C672211FD93945002D55D1 /* FifthViewController.swift in Sources */,
+				52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */,
+				52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */,
+				525FEDAF2007D5730095583D /* LoginViewController.swift in Sources */,
+				52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */,
+				52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */,
+				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
+				525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
-				5215D8A01FE9243F00F842B1 /* TripsInfoCollectionViewCell.swift in Sources */,
-				528509F01FEE290400DA834B /* TripsInfoTableViewCell.swift in Sources */,
+				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
+				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
+				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
+				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
+				525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
+				52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
+				52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */,
+				52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */,
+				52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */,
+				525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
+				52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
+				52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */,
+				525FEDB12007D5CA0095583D /* RegisterViewController.swift in Sources */,
 				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
-				52C6721F1FD938D3002D55D1 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,14 +600,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52C18A121FCEEE0600433A7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52C18A131FCEEE0600433A7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -599,14 +723,17 @@
 			baseConfigurationReference = F1B2AA82E2803C56697D1C6D /* Pods-tab test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHF9UYKHEU;
 				INFOPLIST_FILE = "tab test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MDR-Tech.tab-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -615,14 +742,17 @@
 			baseConfigurationReference = 1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHF9UYKHEU;
 				INFOPLIST_FILE = "tab test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MDR-Tech.tab-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
