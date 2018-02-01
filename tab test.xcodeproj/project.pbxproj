@@ -42,6 +42,20 @@
 		52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */; };
 		52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */; };
 		52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672684201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift */; };
+		5267268B2020969E00F151AB /* ProfilePictureNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267268A2020969E00F151AB /* ProfilePictureNameTableViewCell.swift */; };
+		5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267268C202096F800F151AB /* EditProfileTableViewCell.swift */; };
+		5267268F202097B600F151AB /* ChangePasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267268E202097B600F151AB /* ChangePasswordTableViewCell.swift */; };
+		526726912020986000F151AB /* PromoCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726902020986000F151AB /* PromoCodeTableViewCell.swift */; };
+		526726932020987A00F151AB /* WishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726922020987A00F151AB /* WishListTableViewCell.swift */; };
+		526726952020989900F151AB /* FacebookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726942020989900F151AB /* FacebookTableViewCell.swift */; };
+		52672697202098A900F151AB /* InstagramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672696202098A900F151AB /* InstagramTableViewCell.swift */; };
+		52672699202098BB00F151AB /* WebsiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672698202098BB00F151AB /* WebsiteTableViewCell.swift */; };
+		5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267269A202098C400F151AB /* OthersTableViewCell.swift */; };
+		5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */; };
+		526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A02020A62500F151AB /* ProfileTableViewController.swift */; };
+		526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A82022D39F00F151AB /* InboxTableViewController.swift */; };
+		526726AB2022D56E00F151AB /* inbox1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726AA2022D56E00F151AB /* inbox1TableViewCell.swift */; };
+		526726AD2022D6BE00F151AB /* inbox2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726AC2022D6BE00F151AB /* inbox2TableViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
@@ -112,6 +126,20 @@
 		52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerInfoBookingDetailTableViewCell.swift; sourceTree = "<group>"; };
 		52672684201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSummaryBookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5267268A2020969E00F151AB /* ProfilePictureNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureNameTableViewCell.swift; sourceTree = "<group>"; };
+		5267268C202096F800F151AB /* EditProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewCell.swift; sourceTree = "<group>"; };
+		5267268E202097B600F151AB /* ChangePasswordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewCell.swift; sourceTree = "<group>"; };
+		526726902020986000F151AB /* PromoCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeTableViewCell.swift; sourceTree = "<group>"; };
+		526726922020987A00F151AB /* WishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListTableViewCell.swift; sourceTree = "<group>"; };
+		526726942020989900F151AB /* FacebookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTableViewCell.swift; sourceTree = "<group>"; };
+		52672696202098A900F151AB /* InstagramTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramTableViewCell.swift; sourceTree = "<group>"; };
+		52672698202098BB00F151AB /* WebsiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteTableViewCell.swift; sourceTree = "<group>"; };
+		5267269A202098C400F151AB /* OthersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersTableViewCell.swift; sourceTree = "<group>"; };
+		5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTableViewCell.swift; sourceTree = "<group>"; };
+		526726A02020A62500F151AB /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		526726A82022D39F00F151AB /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
+		526726AA2022D56E00F151AB /* inbox1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inbox1TableViewCell.swift; sourceTree = "<group>"; };
+		526726AC2022D6BE00F151AB /* inbox2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inbox2TableViewCell.swift; sourceTree = "<group>"; };
 		528509EC1FEA4FD100DA834B /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/PutinProfile.jpg"; sourceTree = "<absolute>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -271,6 +299,51 @@
 			path = BookingDetailsCell;
 			sourceTree = "<group>";
 		};
+		526726862020791E00F151AB /* ProfileTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				526726A02020A62500F151AB /* ProfileTableViewController.swift */,
+				526726892020946100F151AB /* ProfileTablecells */,
+			);
+			path = ProfileTableViewController;
+			sourceTree = "<group>";
+		};
+		526726892020946100F151AB /* ProfileTablecells */ = {
+			isa = PBXGroup;
+			children = (
+				5267268E202097B600F151AB /* ChangePasswordTableViewCell.swift */,
+				5267268A2020969E00F151AB /* ProfilePictureNameTableViewCell.swift */,
+				5267268C202096F800F151AB /* EditProfileTableViewCell.swift */,
+				526726902020986000F151AB /* PromoCodeTableViewCell.swift */,
+				526726922020987A00F151AB /* WishListTableViewCell.swift */,
+				526726942020989900F151AB /* FacebookTableViewCell.swift */,
+				52672696202098A900F151AB /* InstagramTableViewCell.swift */,
+				52672698202098BB00F151AB /* WebsiteTableViewCell.swift */,
+				5267269A202098C400F151AB /* OthersTableViewCell.swift */,
+				5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */,
+			);
+			path = ProfileTablecells;
+			sourceTree = "<group>";
+		};
+		526726A22020B20300F151AB /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				526726A82022D39F00F151AB /* InboxTableViewController.swift */,
+				526726A72022D21900F151AB /* inboxCell */,
+			);
+			name = Inbox;
+			path = Welcome/Inbox;
+			sourceTree = "<group>";
+		};
+		526726A72022D21900F151AB /* inboxCell */ = {
+			isa = PBXGroup;
+			children = (
+				526726AA2022D56E00F151AB /* inbox1TableViewCell.swift */,
+				526726AC2022D6BE00F151AB /* inbox2TableViewCell.swift */,
+			);
+			path = inboxCell;
+			sourceTree = "<group>";
+		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +367,8 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				526726A22020B20300F151AB /* Inbox */,
+				526726862020791E00F151AB /* ProfileTableViewController */,
 				525FEDB62008830A0095583D /* TripDetailsflow */,
 				525FEDAB2007D4E90095583D /* Welcome */,
 				524D4E701FFCD889002A8F86 /* Logo_final_v2.png */,
@@ -540,33 +615,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526726AB2022D56E00F151AB /* inbox1TableViewCell.swift in Sources */,
 				52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */,
 				52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */,
+				526726912020986000F151AB /* PromoCodeTableViewCell.swift in Sources */,
 				525FEDAF2007D5730095583D /* LoginViewController.swift in Sources */,
 				52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */,
 				52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */,
+				526726AD2022D6BE00F151AB /* inbox2TableViewCell.swift in Sources */,
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
 				525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
+				526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */,
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
+				526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */,
+				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
+				5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */,
 				525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */,
+				5267268B2020969E00F151AB /* ProfilePictureNameTableViewCell.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
 				52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */,
+				5267268F202097B600F151AB /* ChangePasswordTableViewCell.swift in Sources */,
+				52672699202098BB00F151AB /* WebsiteTableViewCell.swift in Sources */,
 				52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */,
 				52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */,
+				52672697202098A900F151AB /* InstagramTableViewCell.swift in Sources */,
 				525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */,
 				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
 				52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
+				5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */,
+				526726932020987A00F151AB /* WishListTableViewCell.swift in Sources */,
 				52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */,
 				525FEDB12007D5CA0095583D /* RegisterViewController.swift in Sources */,
 				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
+				526726952020989900F151AB /* FacebookTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
