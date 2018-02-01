@@ -12,13 +12,15 @@ import UIKit
 class InboxTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell : UITableViewCell? = nil
+        var cell : UITableViewCell! = nil
         
         if indexPath.row == 0{
-        cell = tableView.dequeueReusableCell(withIdentifier: "inbox1TableViewCell", for: indexPath)
+            
+            cell = tableView.dequeueReusableCell(withIdentifier: "inboxCell1TableViewCell", for: indexPath)
         } else if
             indexPath.row == 1 {
-            cell = tableView.dequeueReusableCell(withIdentifier: "inbox2TableViewCell", for: indexPath)
+            
+            cell = tableView.dequeueReusableCell(withIdentifier: "inboxCell2TableViewCell", for: indexPath)
         }
         return cell!
     }
@@ -31,6 +33,11 @@ class InboxTableViewController: UITableViewController {
 //            return 40
 //        }
 //    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 2
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,10 +61,7 @@ class InboxTableViewController: UITableViewController {
 //        return 0
 //    }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 4
-    }
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)

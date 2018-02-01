@@ -1134,7 +1134,7 @@
             </objects>
             <point key="canvasLocation" x="814" y="479"/>
         </scene>
-        <!--Inbox Table View Controller-->
+        <!--Inbox-->
         <scene sceneID="ef2-t7-fDN">
             <objects>
                 <tableViewController id="QSX-Pd-MBu" customClass="InboxTableViewController" customModule="tab_test" customModuleProvider="target" sceneMemberID="viewController">
@@ -1143,46 +1143,68 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="196" id="C5m-o3-fhj" customClass="inbox1TableViewCell" customModule="tab_test" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="196"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="inboxCell1TableViewCell" id="zjq-6h-mcX" customClass="inboxCell1TableViewCell" customModule="tab_test" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C5m-o3-fhj" id="GGP-jx-fil">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="195.5"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zjq-6h-mcX" id="i9Y-zQ-9Tv">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeA-WX-lCa">
-                                            <rect key="frame" x="166" y="0.0" width="62" height="32"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PutinProfile" translatesAutoresizingMaskIntoConstraints="NO" id="bE1-sV-5cg">
+                                            <rect key="frame" x="6" y="0.0" width="62" height="41"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your booking is accepted..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fa-h5-eeP">
+                                            <rect key="frame" x="76" y="11" width="208" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="IQx-bj-mGx">
-                                            <rect key="frame" x="105" y="40" width="184" height="87"/>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPd-eb-fgX">
+                                            <rect key="frame" x="330" y="6" width="38" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
+                                            <state key="normal" image="arrow-big-11"/>
+                                        </button>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="inboxEmailPicture" destination="IQx-bj-mGx" id="Jfi-SR-Hgc"/>
-                                    <outlet property="inboxLabel" destination="MeA-WX-lCa" id="5Y5-2c-0dp"/>
-                                </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bmr-FT-gUX" customClass="inbox2TableViewCell" customModule="tab_test" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="224" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="inboxCell2TableViewCell" id="OJd-Ct-JTM" customClass="inboxCell2TableViewCell" customModule="tab_test" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bmr-FT-gUX" id="VXX-bn-oVS">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OJd-Ct-JTM" id="0aH-pE-uSJ">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PutinProfile" translatesAutoresizingMaskIntoConstraints="NO" id="1tv-rz-RdA">
+                                            <rect key="frame" x="6" y="0.0" width="62" height="41"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Year End Promo..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dby-TF-Fz0">
+                                            <rect key="frame" x="76" y="11" width="136" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3I-Bg-Mso">
+                                            <rect key="frame" x="330" y="6" width="38" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="arrow-big-11"/>
+                                        </button>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="QSX-Pd-MBu" id="RDB-A8-X1F"/>
                             <outlet property="delegate" destination="QSX-Pd-MBu" id="thg-1G-Bmk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="K3J-ls-dqS"/>
+                    <navigationItem key="navigationItem" title="Inbox" id="K3J-ls-dqS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="KW9-3k-qXq"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hjH-U2-dT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1455,6 +1477,8 @@
     <resources>
         <image name="Logo_final_v2.png" width="900" height="300"/>
         <image name="MytripsImage.png" width="180" height="180"/>
+        <image name="PutinProfile" width="858" height="536"/>
+        <image name="arrow-big-11" width="30" height="30"/>
         <image name="arrow-big-2" width="30" height="30"/>
         <image name="bar-chart" width="30" height="30"/>
         <image name="clock" width="29" height="30"/>

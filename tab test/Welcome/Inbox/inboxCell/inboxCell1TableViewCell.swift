@@ -1,5 +1,5 @@
 //
-//  inbox1TableViewCell.swift
+//  inboxCell1TableViewCell.swift
 //  tab test
 //
 //  Created by Macbook Pro on 01/02/2018.
@@ -8,11 +8,8 @@
 
 import UIKit
 
-class inbox1TableViewCell: UITableViewCell {
-    
-    @IBOutlet var inboxLabel: UILabel!
-    
-    @IBOutlet var inboxEmailPicture: UIImageView!
+class inboxCell1TableViewCell: UITableViewCell {
+
     
     override func awakeFromNib() {
         super.awakeFromNib()

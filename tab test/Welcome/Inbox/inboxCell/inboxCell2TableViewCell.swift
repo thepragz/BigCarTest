@@ -1,5 +1,5 @@
 //
-//  inbox2TableViewCell.swift
+//  inboxCell2TableViewCell.swift
 //  tab test
 //
 //  Created by Macbook Pro on 01/02/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class inbox2TableViewCell: UITableViewCell {
+class inboxCell2TableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
