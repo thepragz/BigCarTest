@@ -27,6 +27,8 @@
 		52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */; };
 		52417E5020233A4D000DC499 /* inboxCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */; };
 		52417E5220233B25000DC499 /* inboxCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */; };
+		52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */; };
+		52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */; };
 		524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */; };
 		524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E241FF64C77002A8F86 /* Main.storyboard */; };
 		524D4E711FFCD8AA002A8F86 /* Logo_final_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E701FFCD889002A8F86 /* Logo_final_v2.png */; };
@@ -61,7 +63,6 @@
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
 		52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */; };
 		52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721A1FD936A3002D55D1 /* SecondViewController.swift */; };
-		52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721C1FD93727002D55D1 /* ThirdViewController.swift */; };
 		52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */; };
 		52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */; };
 		52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */; };
@@ -111,6 +112,8 @@
 		52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripDetailsTableViewController.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsTableViewController.swift"; sourceTree = "<absolute>"; };
 		52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell1TableViewCell.swift; sourceTree = "<group>"; };
 		52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell2TableViewCell.swift; sourceTree = "<group>"; };
+		52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCell1TableViewCell.swift; sourceTree = "<group>"; };
+		52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsPurchasedTableViewController.swift; sourceTree = "<group>"; };
 		524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewerDetails.xib; sourceTree = "<group>"; };
 		524D4E241FF64C77002A8F86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		524D4E701FFCD889002A8F86 /* Logo_final_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_final_v2.png; sourceTree = "<group>"; };
@@ -150,7 +153,6 @@
 		52C18A1F1FCEEE0600433A7D /* tab testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A2A1FCEEE0600433A7D /* tab testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6721A1FD936A3002D55D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		52C6721C1FD93727002D55D1 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTimeSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackageQuantityTableViewCell.swift; sourceTree = "<group>"; };
@@ -248,6 +250,23 @@
 				52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */,
 			);
 			path = TripDetailsCells;
+			sourceTree = "<group>";
+		};
+		52417E5320234642000DC499 /* TripsPurchased */ = {
+			isa = PBXGroup;
+			children = (
+				52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */,
+				52417E56202346F9000DC499 /* tripsPurcasedCell */,
+			);
+			path = TripsPurchased;
+			sourceTree = "<group>";
+		};
+		52417E56202346F9000DC499 /* tripsPurcasedCell */ = {
+			isa = PBXGroup;
+			children = (
+				52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */,
+			);
+			path = tripsPurcasedCell;
 			sourceTree = "<group>";
 		};
 		525FEDAB2007D4E90095583D /* Welcome */ = {
@@ -367,6 +386,7 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				52417E5320234642000DC499 /* TripsPurchased */,
 				526726A22020B20300F151AB /* Inbox */,
 				526726862020791E00F151AB /* ProfileTableViewController */,
 				525FEDB62008830A0095583D /* TripDetailsflow */,
@@ -382,7 +402,6 @@
 				52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */,
 				524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */,
 				52C6721A1FD936A3002D55D1 /* SecondViewController.swift */,
-				52C6721C1FD93727002D55D1 /* ThirdViewController.swift */,
 				52C18A151FCEEE0600433A7D /* Assets.xcassets */,
 				52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */,
 				52C18A1A1FCEEE0600433A7D /* Info.plist */,
@@ -629,9 +648,11 @@
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
+				52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
 				526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */,
 				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
+				52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */,
 				5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */,
 				525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */,
 				5267268B2020969E00F151AB /* ProfilePictureNameTableViewCell.swift in Sources */,
@@ -647,7 +668,6 @@
 				52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */,
 				52672697202098A900F151AB /* InstagramTableViewCell.swift in Sources */,
 				525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */,
-				52C6721D1FD93727002D55D1 /* ThirdViewController.swift in Sources */,
 				52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
 				5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */,
