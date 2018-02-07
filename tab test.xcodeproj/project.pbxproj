@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */; };
-		5215D8931FE8FB5000F842B1 /* Sample-Cat-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */; };
 		5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88B1FE8FB4F00F842B1 /* airport.jpg */; };
 		5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */; };
-		5215D8961FE8FB5000F842B1 /* Sample-Cat-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */; };
 		5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */; };
 		5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */; };
 		5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8901FE8FB5000F842B1 /* teambuilding.jpg */; };
@@ -25,17 +23,13 @@
 		52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */; };
 		52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */; };
 		52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */; };
+		52212463202B0281006DA95A /* AdventureTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */; };
 		52417E5020233A4D000DC499 /* inboxCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */; };
 		52417E5220233B25000DC499 /* inboxCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */; };
 		52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */; };
 		52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */; };
 		524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */; };
 		524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E241FF64C77002A8F86 /* Main.storyboard */; };
-		524D4E711FFCD8AA002A8F86 /* Logo_final_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E701FFCD889002A8F86 /* Logo_final_v2.png */; };
-		524D4E731FFCE123002A8F86 /* facebook_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */; };
-		525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDA92007D4DD0095583D /* WelcomeViewController.swift */; };
-		525FEDAF2007D5730095583D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDAE2007D5730095583D /* LoginViewController.swift */; };
-		525FEDB12007D5CA0095583D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB02007D5CA0095583D /* RegisterViewController.swift */; };
 		525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */; };
 		525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */; };
 		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
@@ -58,6 +52,13 @@
 		5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */; };
 		526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A02020A62500F151AB /* ProfileTableViewController.swift */; };
 		526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A82022D39F00F151AB /* InboxTableViewController.swift */; };
+		5293BB142029AEF40016E34C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293BB132029AEF40016E34C /* CategoryTableViewController.swift */; };
+		5293BB182029BA740016E34C /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293BB172029BA740016E34C /* AirportTableViewCell.swift */; };
+		52B4C29F202AC2A000FB0FBE /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */; };
+		52B4C2A1202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */; };
+		52B4C2A7202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */; };
+		52B4C2A9202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */; };
+		52B4C2AB202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
@@ -93,10 +94,8 @@
 /* Begin PBXFileReference section */
 		1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.release.xcconfig"; sourceTree = "<group>"; };
 		5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "student-summercamp.jpg"; sourceTree = "<group>"; };
-		5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sample-Cat-2.jpg"; sourceTree = "<group>"; };
 		5215D88B1FE8FB4F00F842B1 /* airport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airport.jpg; sourceTree = "<group>"; };
 		5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MPV-Rental.jpg"; sourceTree = "<group>"; };
-		5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sample-Cat-1.jpg"; sourceTree = "<group>"; };
 		5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sightseeing-Tour.jpg"; sourceTree = "<group>"; };
 		5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adventure-tour.jpg"; sourceTree = "<group>"; };
 		5215D8901FE8FB5000F842B1 /* teambuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teambuilding.jpg; sourceTree = "<group>"; };
@@ -110,17 +109,13 @@
 		52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripActionButtonTableViewCell.swift; sourceTree = "<group>"; };
 		52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripReviewsTableViewCell.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsCells/TripReviewsTableViewCell.swift"; sourceTree = "<absolute>"; };
 		52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripDetailsTableViewController.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsTableViewController.swift"; sourceTree = "<absolute>"; };
+		52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTourTableViewCell.swift; sourceTree = "<group>"; };
 		52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell1TableViewCell.swift; sourceTree = "<group>"; };
 		52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell2TableViewCell.swift; sourceTree = "<group>"; };
 		52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCell1TableViewCell.swift; sourceTree = "<group>"; };
 		52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsPurchasedTableViewController.swift; sourceTree = "<group>"; };
 		524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewerDetails.xib; sourceTree = "<group>"; };
 		524D4E241FF64C77002A8F86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		524D4E701FFCD889002A8F86 /* Logo_final_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_final_v2.png; sourceTree = "<group>"; };
-		524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook_icon@3x.png"; sourceTree = "<group>"; };
-		525FEDA92007D4DD0095583D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		525FEDAE2007D5730095583D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		525FEDB02007D5CA0095583D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingOptionsTableViewController.swift; sourceTree = "<group>"; };
 		525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsTableViewController.swift; sourceTree = "<group>"; };
 		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = johor.jpeg; path = "tab test/johor.jpeg"; sourceTree = SOURCE_ROOT; };
@@ -144,6 +139,13 @@
 		526726A02020A62500F151AB /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		526726A82022D39F00F151AB /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
 		528509EC1FEA4FD100DA834B /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/PutinProfile.jpg"; sourceTree = "<absolute>"; };
+		5293BB132029AEF40016E34C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		5293BB172029BA740016E34C /* AirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
+		52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpvRentalTableViewCell.swift; sourceTree = "<group>"; };
+		52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightseeingTourTableViewCell.swift; sourceTree = "<group>"; };
+		52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBuildingTableViewCell.swift; sourceTree = "<group>"; };
+		52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSumerCampTableViewCell.swift; sourceTree = "<group>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -214,8 +216,6 @@
 				5215D88B1FE8FB4F00F842B1 /* airport.jpg */,
 				5215D8911FE8FB5000F842B1 /* events.jpg */,
 				5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */,
-				5215D88D1FE8FB5000F842B1 /* Sample-Cat-1.jpg */,
-				5215D88A1FE8FB4F00F842B1 /* Sample-Cat-2.jpg */,
 				5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */,
 				5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */,
 				5215D8901FE8FB5000F842B1 /* teambuilding.jpg */,
@@ -267,32 +267,6 @@
 				52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */,
 			);
 			path = tripsPurcasedCell;
-			sourceTree = "<group>";
-		};
-		525FEDAB2007D4E90095583D /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				525FEDA92007D4DD0095583D /* WelcomeViewController.swift */,
-				525FEDAD2007D54C0095583D /* Login */,
-				525FEDAC2007D5470095583D /* Register */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
-		525FEDAC2007D5470095583D /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				525FEDB02007D5CA0095583D /* RegisterViewController.swift */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		525FEDAD2007D54C0095583D /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				525FEDAE2007D5730095583D /* LoginViewController.swift */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		525FEDB62008830A0095583D /* TripDetailsflow */ = {
@@ -363,6 +337,29 @@
 			path = inboxCell;
 			sourceTree = "<group>";
 		};
+		5293BB09202823D90016E34C /* CategoryTab */ = {
+			isa = PBXGroup;
+			children = (
+				5293BB132029AEF40016E34C /* CategoryTableViewController.swift */,
+				5293BB0E202834160016E34C /* CategoryTabCell */,
+			);
+			path = CategoryTab;
+			sourceTree = "<group>";
+		};
+		5293BB0E202834160016E34C /* CategoryTabCell */ = {
+			isa = PBXGroup;
+			children = (
+				5293BB172029BA740016E34C /* AirportTableViewCell.swift */,
+				52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */,
+				52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */,
+				52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */,
+				52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */,
+				52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */,
+				52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */,
+			);
+			path = CategoryTabCell;
+			sourceTree = "<group>";
+		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
@@ -386,13 +383,11 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				5293BB09202823D90016E34C /* CategoryTab */,
 				52417E5320234642000DC499 /* TripsPurchased */,
 				526726A22020B20300F151AB /* Inbox */,
 				526726862020791E00F151AB /* ProfileTableViewController */,
 				525FEDB62008830A0095583D /* TripDetailsflow */,
-				525FEDAB2007D4E90095583D /* Welcome */,
-				524D4E701FFCD889002A8F86 /* Logo_final_v2.png */,
-				524D4E721FFCE122002A8F86 /* facebook_icon@3x.png */,
 				5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */,
 				5215D89E1FE90E1F00F842B1 /* ImageSource */,
 				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
@@ -536,18 +531,14 @@
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
 				5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */,
 				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
-				524D4E711FFCD8AA002A8F86 /* Logo_final_v2.png in Resources */,
 				5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */,
 				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
 				5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */,
 				5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */,
 				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
 				524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */,
-				5215D8931FE8FB5000F842B1 /* Sample-Cat-2.jpg in Resources */,
 				5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */,
-				524D4E731FFCE123002A8F86 /* facebook_icon@3x.png in Resources */,
 				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
-				5215D8961FE8FB5000F842B1 /* Sample-Cat-1.jpg in Resources */,
 				5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */,
 				5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */,
 				524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */,
@@ -634,10 +625,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52212463202B0281006DA95A /* AdventureTourTableViewCell.swift in Sources */,
 				52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */,
+				52B4C2AB202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift in Sources */,
 				52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */,
 				526726912020986000F151AB /* PromoCodeTableViewCell.swift in Sources */,
-				525FEDAF2007D5730095583D /* LoginViewController.swift in Sources */,
+				52B4C2A7202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift in Sources */,
 				52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */,
 				52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */,
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
@@ -646,15 +639,16 @@
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
 				526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */,
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
+				52B4C2A1202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift in Sources */,
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
 				52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
 				526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */,
 				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
+				5293BB182029BA740016E34C /* AirportTableViewCell.swift in Sources */,
 				52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */,
 				5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */,
-				525FEDAA2007D4DD0095583D /* WelcomeViewController.swift in Sources */,
 				5267268B2020969E00F151AB /* ProfilePictureNameTableViewCell.swift in Sources */,
 				52417E5020233A4D000DC499 /* inboxCell1TableViewCell.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
@@ -663,6 +657,7 @@
 				52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */,
 				5267268F202097B600F151AB /* ChangePasswordTableViewCell.swift in Sources */,
 				52672699202098BB00F151AB /* WebsiteTableViewCell.swift in Sources */,
+				5293BB142029AEF40016E34C /* CategoryTableViewController.swift in Sources */,
 				52417E5220233B25000DC499 /* inboxCell2TableViewCell.swift in Sources */,
 				52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */,
 				52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */,
@@ -671,11 +666,12 @@
 				52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
 				5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */,
+				52B4C2A9202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift in Sources */,
 				526726932020987A00F151AB /* WishListTableViewCell.swift in Sources */,
 				52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */,
-				525FEDB12007D5CA0095583D /* RegisterViewController.swift in Sources */,
 				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
 				526726952020989900F151AB /* FacebookTableViewCell.swift in Sources */,
+				52B4C29F202AC2A000FB0FBE /* EventsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
