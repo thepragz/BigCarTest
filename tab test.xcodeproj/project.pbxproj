@@ -25,6 +25,10 @@
 		5252441A203999B200B90DF9 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 52524418203999B100B90DF9 /* Alamofire.framework.dSYM */; };
 		5252441B203999C900B90DF9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52524417203999B100B90DF9 /* Alamofire.framework */; };
 		5252441C203999C900B90DF9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52524417203999B100B90DF9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5252441F2039AEBC00B90DF9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252441E2039AEBB00B90DF9 /* WelcomeViewController.swift */; };
+		525244222039AEE200B90DF9 /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525244212039AEE200B90DF9 /* InboxTableViewController.swift */; };
+		525244252039AEF300B90DF9 /* inboxCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525244232039AEF200B90DF9 /* inboxCell1TableViewCell.swift */; };
+		525244262039AEF300B90DF9 /* inboxCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525244242039AEF200B90DF9 /* inboxCell2TableViewCell.swift */; };
 		525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */; };
 		525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */; };
 		52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */; };
@@ -47,8 +51,6 @@
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
 		52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */; };
 		52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721A1FD936A3002D55D1 /* SecondViewController.swift */; };
-		52CEFF302034431000D097EF /* Inbox in Resources */ = {isa = PBXBuildFile; fileRef = 52CEFF2F2034431000D097EF /* Inbox */; };
-		52CEFF33203444F000D097EF /* Welcome in Resources */ = {isa = PBXBuildFile; fileRef = 52CEFF32203444F000D097EF /* Welcome */; };
 		52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */; };
 		52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */; };
 		52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */; };
@@ -107,6 +109,10 @@
 		52524408203960A400B90DF9 /* CategoryTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTabsViewController.swift; sourceTree = "<group>"; };
 		52524417203999B100B90DF9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		52524418203999B100B90DF9 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		5252441E2039AEBB00B90DF9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		525244212039AEE200B90DF9 /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
+		525244232039AEF200B90DF9 /* inboxCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell1TableViewCell.swift; sourceTree = "<group>"; };
+		525244242039AEF200B90DF9 /* inboxCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell2TableViewCell.swift; sourceTree = "<group>"; };
 		525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingOptionsTableViewController.swift; sourceTree = "<group>"; };
 		525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsTableViewController.swift; sourceTree = "<group>"; };
 		52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -133,8 +139,6 @@
 		52C18A1F1FCEEE0600433A7D /* tab testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A2A1FCEEE0600433A7D /* tab testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6721A1FD936A3002D55D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		52CEFF2F2034431000D097EF /* Inbox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Inbox; path = "tab test/Inbox"; sourceTree = SOURCE_ROOT; };
-		52CEFF32203444F000D097EF /* Welcome */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Welcome; path = "tab test/Welcome"; sourceTree = SOURCE_ROOT; };
 		52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTimeSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackageQuantityTableViewCell.swift; sourceTree = "<group>"; };
@@ -231,6 +235,31 @@
 			path = CategoryCellAPI;
 			sourceTree = "<group>";
 		};
+		525244202039AECA00B90DF9 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		525244272039AEFF00B90DF9 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				525244212039AEE200B90DF9 /* InboxTableViewController.swift */,
+				525244282039AF0B00B90DF9 /* InboxCell */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		525244282039AF0B00B90DF9 /* InboxCell */ = {
+			isa = PBXGroup;
+			children = (
+				525244232039AEF200B90DF9 /* inboxCell1TableViewCell.swift */,
+				525244242039AEF200B90DF9 /* inboxCell2TableViewCell.swift */,
+			);
+			path = InboxCell;
+			sourceTree = "<group>";
+		};
 		525FEDB62008830A0095583D /* TripDetailsflow */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,9 +332,10 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				525244272039AEFF00B90DF9 /* Inbox */,
+				525244202039AECA00B90DF9 /* Welcome */,
+				5252441E2039AEBB00B90DF9 /* WelcomeViewController.swift */,
 				5252440420395FC200B90DF9 /* CategoryTabApi */,
-				52CEFF2F2034431000D097EF /* Inbox */,
-				52CEFF32203444F000D097EF /* Welcome */,
 				52417E5320234642000DC499 /* TripsPurchased */,
 				526726862020791E00F151AB /* ProfileTableViewController */,
 				525FEDB62008830A0095583D /* TripDetailsflow */,
@@ -468,9 +498,7 @@
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
 				5252441A203999B200B90DF9 /* Alamofire.framework.dSYM in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
-				52CEFF33203444F000D097EF /* Welcome in Resources */,
 				524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */,
-				52CEFF302034431000D097EF /* Inbox in Resources */,
 				524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,16 +679,20 @@
 				526726912020986000F151AB /* PromoCodeTableViewCell.swift in Sources */,
 				525244062039601300B90DF9 /* CategoryAPITableViewCell.swift in Sources */,
 				52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */,
+				525244262039AEF300B90DF9 /* inboxCell2TableViewCell.swift in Sources */,
 				52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */,
+				5252441F2039AEBC00B90DF9 /* WelcomeViewController.swift in Sources */,
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
 				525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
 				526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */,
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
+				525244252039AEF300B90DF9 /* inboxCell1TableViewCell.swift in Sources */,
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
 				52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */,
+				525244222039AEE200B90DF9 /* InboxTableViewController.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
 				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
 				52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */,
