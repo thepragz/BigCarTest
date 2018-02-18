@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D098CDED4C462A30055C619 /* Pods_tab_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A789EDF126359E92AE3CC4 /* Pods_tab_testUITests.framework */; };
 		52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */; };
 		52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */; };
 		52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */; };
@@ -57,6 +58,8 @@
 		52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */; };
 		57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */; };
 		57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */; };
+		CBD8F780B59BBE6F17986417 /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB4D4E561010366DDB9556C /* Pods_tab_test.framework */; };
+		E5614892FCFF1E4B314DACD7 /* Pods_tab_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CB12A277B2949A7F61EAB7 /* Pods_tab_testTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27CB12A277B2949A7F61EAB7 /* Pods_tab_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3134FE61E4172AAEE313317F /* Pods-tab test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.debug.xcconfig"; sourceTree = "<group>"; };
 		52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTitleTableViewCell.swift; sourceTree = "<group>"; };
 		52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPriceTableViewCell.swift; sourceTree = "<group>"; };
@@ -146,8 +150,10 @@
 		537DCB087068C636BCB4E4B0 /* Pods-tab testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		59A789EDF126359E92AE3CC4 /* Pods_tab_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D35076A2B09580FF6F51DFF /* Pods-tab test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.release.xcconfig"; sourceTree = "<group>"; };
 		BE0A30F9E380A7A8CADF3561 /* Pods-tab testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAB4D4E561010366DDB9556C /* Pods_tab_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB9753A30E662A6B72CC60B /* Pods-tab testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +164,7 @@
 			files = (
 				5252441B203999C900B90DF9 /* Alamofire.framework in Frameworks */,
 				52524419203999B200B90DF9 /* Alamofire.framework in Frameworks */,
+				CBD8F780B59BBE6F17986417 /* Pods_tab_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5614892FCFF1E4B314DACD7 /* Pods_tab_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D098CDED4C462A30055C619 /* Pods_tab_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,9 @@
 			children = (
 				52524417203999B100B90DF9 /* Alamofire.framework */,
 				52524418203999B100B90DF9 /* Alamofire.framework.dSYM */,
+				CAB4D4E561010366DDB9556C /* Pods_tab_test.framework */,
+				27CB12A277B2949A7F61EAB7 /* Pods_tab_testTests.framework */,
+				59A789EDF126359E92AE3CC4 /* Pods_tab_testUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
