@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */; };
-		5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88B1FE8FB4F00F842B1 /* airport.jpg */; };
-		5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */; };
-		5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */; };
-		5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */; };
-		5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8901FE8FB5000F842B1 /* teambuilding.jpg */; };
-		5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5215D8911FE8FB5000F842B1 /* events.jpg */; };
-		5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */ = {isa = PBXBuildFile; fileRef = 5215D89B1FE90ACF00F842B1 /* inbox1600.png */; };
 		52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */; };
 		52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */; };
 		52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */; };
@@ -23,19 +15,18 @@
 		52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */; };
 		52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */; };
 		52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */; };
-		52212463202B0281006DA95A /* AdventureTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */; };
-		52417E5020233A4D000DC499 /* inboxCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */; };
-		52417E5220233B25000DC499 /* inboxCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */; };
 		52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */; };
 		52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */; };
 		524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */; };
 		524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E241FF64C77002A8F86 /* Main.storyboard */; };
+		525244062039601300B90DF9 /* CategoryAPITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525244052039601300B90DF9 /* CategoryAPITableViewCell.swift */; };
+		52524409203960A400B90DF9 /* CategoryTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52524408203960A400B90DF9 /* CategoryTabsViewController.swift */; };
+		52524419203999B200B90DF9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52524417203999B100B90DF9 /* Alamofire.framework */; };
+		5252441A203999B200B90DF9 /* Alamofire.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 52524418203999B100B90DF9 /* Alamofire.framework.dSYM */; };
+		5252441B203999C900B90DF9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52524417203999B100B90DF9 /* Alamofire.framework */; };
+		5252441C203999C900B90DF9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52524417203999B100B90DF9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		525FEDB320087E480095583D /* BookingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */; };
 		525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */; };
-		52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1C1FDFE1520012FF28 /* johor.jpeg */; };
-		52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1E1FDFE2180012FF28 /* sabah.jpeg */; };
-		52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A1F1FDFE21A0012FF28 /* Perak.jpeg */; };
-		52617A271FE139590012FF28 /* kedah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52617A261FE139590012FF28 /* kedah.jpeg */; };
 		52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */; };
 		52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */; };
 		52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */; };
@@ -51,27 +42,19 @@
 		5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267269A202098C400F151AB /* OthersTableViewCell.swift */; };
 		5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */; };
 		526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A02020A62500F151AB /* ProfileTableViewController.swift */; };
-		526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526726A82022D39F00F151AB /* InboxTableViewController.swift */; };
-		5293BB142029AEF40016E34C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293BB132029AEF40016E34C /* CategoryTableViewController.swift */; };
-		5293BB182029BA740016E34C /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293BB172029BA740016E34C /* AirportTableViewCell.swift */; };
-		52B4C29F202AC2A000FB0FBE /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */; };
-		52B4C2A1202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */; };
-		52B4C2A7202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */; };
-		52B4C2A9202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */; };
-		52B4C2AB202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */; };
 		52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */; };
 		52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */; };
 		52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A151FCEEE0600433A7D /* Assets.xcassets */; };
 		52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C18A171FCEEE0600433A7D /* LaunchScreen.storyboard */; };
 		52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6721A1FD936A3002D55D1 /* SecondViewController.swift */; };
+		52CEFF302034431000D097EF /* Inbox in Resources */ = {isa = PBXBuildFile; fileRef = 52CEFF2F2034431000D097EF /* Inbox */; };
+		52CEFF33203444F000D097EF /* Welcome in Resources */ = {isa = PBXBuildFile; fileRef = 52CEFF32203444F000D097EF /* Welcome */; };
 		52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */; };
 		52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */; };
 		52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */; };
 		52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */; };
-		52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF894B1FDBF2BD002CE36A /* MytripsImage.png */; };
 		57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */; };
 		57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */; };
-		E6FF88366DA370A581883BED /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8127B01898527F41D7A297 /* Pods_tab_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,16 +74,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5252441D203999C900B90DF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5252441C203999C900B90DF9 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.release.xcconfig"; sourceTree = "<group>"; };
-		5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "student-summercamp.jpg"; sourceTree = "<group>"; };
-		5215D88B1FE8FB4F00F842B1 /* airport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = airport.jpg; sourceTree = "<group>"; };
-		5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MPV-Rental.jpg"; sourceTree = "<group>"; };
-		5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sightseeing-Tour.jpg"; sourceTree = "<group>"; };
-		5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "adventure-tour.jpg"; sourceTree = "<group>"; };
-		5215D8901FE8FB5000F842B1 /* teambuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teambuilding.jpg; sourceTree = "<group>"; };
-		5215D8911FE8FB5000F842B1 /* events.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = events.jpg; sourceTree = "<group>"; };
-		5215D89B1FE90ACF00F842B1 /* inbox1600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inbox1600.png; sourceTree = "<group>"; };
+		3134FE61E4172AAEE313317F /* Pods-tab test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.debug.xcconfig"; sourceTree = "<group>"; };
 		52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTitleTableViewCell.swift; sourceTree = "<group>"; };
 		52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPriceTableViewCell.swift; sourceTree = "<group>"; };
 		52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripIconsTableViewCell.swift; sourceTree = "<group>"; };
@@ -109,19 +98,17 @@
 		52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripActionButtonTableViewCell.swift; sourceTree = "<group>"; };
 		52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripReviewsTableViewCell.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsCells/TripReviewsTableViewCell.swift"; sourceTree = "<absolute>"; };
 		52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripDetailsTableViewController.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsTableViewController.swift"; sourceTree = "<absolute>"; };
-		52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTourTableViewCell.swift; sourceTree = "<group>"; };
-		52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell1TableViewCell.swift; sourceTree = "<group>"; };
-		52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxCell2TableViewCell.swift; sourceTree = "<group>"; };
 		52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCell1TableViewCell.swift; sourceTree = "<group>"; };
 		52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsPurchasedTableViewController.swift; sourceTree = "<group>"; };
+		5247D3EBD7B7BA9FA90251BC /* Pods-tab testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewerDetails.xib; sourceTree = "<group>"; };
 		524D4E241FF64C77002A8F86 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		525244052039601300B90DF9 /* CategoryAPITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAPITableViewCell.swift; sourceTree = "<group>"; };
+		52524408203960A400B90DF9 /* CategoryTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTabsViewController.swift; sourceTree = "<group>"; };
+		52524417203999B100B90DF9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		52524418203999B100B90DF9 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		525FEDB220087E480095583D /* BookingOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingOptionsTableViewController.swift; sourceTree = "<group>"; };
 		525FEDB420087FD70095583D /* BookingDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailsTableViewController.swift; sourceTree = "<group>"; };
-		52617A1C1FDFE1520012FF28 /* johor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = johor.jpeg; path = "tab test/johor.jpeg"; sourceTree = SOURCE_ROOT; };
-		52617A1E1FDFE2180012FF28 /* sabah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sabah.jpeg; path = "tab test/sabah.jpeg"; sourceTree = SOURCE_ROOT; };
-		52617A1F1FDFE21A0012FF28 /* Perak.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Perak.jpeg; path = "tab test/Perak.jpeg"; sourceTree = SOURCE_ROOT; };
-		52617A261FE139590012FF28 /* kedah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kedah.jpeg; path = "tab test/kedah.jpeg"; sourceTree = SOURCE_ROOT; };
 		52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		52672680201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBookingDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		52672682201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerInfoBookingDetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -137,15 +124,6 @@
 		5267269A202098C400F151AB /* OthersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersTableViewCell.swift; sourceTree = "<group>"; };
 		5267269C202098CF00F151AB /* EmergencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyTableViewCell.swift; sourceTree = "<group>"; };
 		526726A02020A62500F151AB /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
-		526726A82022D39F00F151AB /* InboxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTableViewController.swift; sourceTree = "<group>"; };
-		528509EC1FEA4FD100DA834B /* PutinProfile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = PutinProfile.jpg; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/PutinProfile.jpg"; sourceTree = "<absolute>"; };
-		5293BB132029AEF40016E34C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
-		5293BB172029BA740016E34C /* AirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
-		52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
-		52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpvRentalTableViewCell.swift; sourceTree = "<group>"; };
-		52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightseeingTourTableViewCell.swift; sourceTree = "<group>"; };
-		52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamBuildingTableViewCell.swift; sourceTree = "<group>"; };
-		52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSumerCampTableViewCell.swift; sourceTree = "<group>"; };
 		52C18A091FCEEE0600433A7D /* tab test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tab test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A0C1FCEEE0600433A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C18A0E1FCEEE0600433A7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -155,15 +133,18 @@
 		52C18A1F1FCEEE0600433A7D /* tab testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C18A2A1FCEEE0600433A7D /* tab testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tab testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C6721A1FD936A3002D55D1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52CEFF2F2034431000D097EF /* Inbox */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Inbox; path = "tab test/Inbox"; sourceTree = SOURCE_ROOT; };
+		52CEFF32203444F000D097EF /* Welcome */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Welcome; path = "tab test/Welcome"; sourceTree = SOURCE_ROOT; };
 		52EEE9A22014721D00D4C48B /* TripDateSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDateSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTimeSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackageQuantityTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTotalPriceTableViewCell.swift; sourceTree = "<group>"; };
-		52EF894B1FDBF2BD002CE36A /* MytripsImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MytripsImage.png; sourceTree = "<group>"; };
+		537DCB087068C636BCB4E4B0 /* Pods-tab testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		EB8127B01898527F41D7A297 /* Pods_tab_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1B2AA82E2803C56697D1C6D /* Pods-tab test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.debug.xcconfig"; sourceTree = "<group>"; };
+		5D35076A2B09580FF6F51DFF /* Pods-tab test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.release.xcconfig"; sourceTree = "<group>"; };
+		BE0A30F9E380A7A8CADF3561 /* Pods-tab testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBB9753A30E662A6B72CC60B /* Pods-tab testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FF88366DA370A581883BED /* Pods_tab_test.framework in Frameworks */,
+				5252441B203999C900B90DF9 /* Alamofire.framework in Frameworks */,
+				52524419203999B200B90DF9 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,47 +177,10 @@
 		30304800D8D5A20309C68BAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB8127B01898527F41D7A297 /* Pods_tab_test.framework */,
+				52524417203999B100B90DF9 /* Alamofire.framework */,
+				52524418203999B100B90DF9 /* Alamofire.framework.dSYM */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		37E692B486BEEFB23D588AFC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F1B2AA82E2803C56697D1C6D /* Pods-tab test.debug.xcconfig */,
-				1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */ = {
-			isa = PBXGroup;
-			children = (
-				5215D88F1FE8FB5000F842B1 /* adventure-tour.jpg */,
-				5215D88B1FE8FB4F00F842B1 /* airport.jpg */,
-				5215D8911FE8FB5000F842B1 /* events.jpg */,
-				5215D88C1FE8FB5000F842B1 /* MPV-Rental.jpg */,
-				5215D88E1FE8FB5000F842B1 /* Sightseeing-Tour.jpg */,
-				5215D8891FE8FB4F00F842B1 /* student-summercamp.jpg */,
-				5215D8901FE8FB5000F842B1 /* teambuilding.jpg */,
-			);
-			name = CategoriesImageSource;
-			path = "tab test/CategoriesImageSource";
-			sourceTree = SOURCE_ROOT;
-		};
-		5215D89E1FE90E1F00F842B1 /* ImageSource */ = {
-			isa = PBXGroup;
-			children = (
-				528509EC1FEA4FD100DA834B /* PutinProfile.jpg */,
-				52EF894B1FDBF2BD002CE36A /* MytripsImage.png */,
-				52617A1C1FDFE1520012FF28 /* johor.jpeg */,
-				52617A261FE139590012FF28 /* kedah.jpeg */,
-				52617A1E1FDFE2180012FF28 /* sabah.jpeg */,
-				5215D89B1FE90ACF00F842B1 /* inbox1600.png */,
-				52617A1F1FDFE21A0012FF28 /* Perak.jpeg */,
-			);
-			name = ImageSource;
 			sourceTree = "<group>";
 		};
 		52168A2C2011DD5E00A52EBB /* TripDetailsCells */ = {
@@ -267,6 +212,23 @@
 				52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */,
 			);
 			path = tripsPurcasedCell;
+			sourceTree = "<group>";
+		};
+		5252440420395FC200B90DF9 /* CategoryTabApi */ = {
+			isa = PBXGroup;
+			children = (
+				52524408203960A400B90DF9 /* CategoryTabsViewController.swift */,
+				525244072039602500B90DF9 /* CategoryCellAPI */,
+			);
+			path = CategoryTabApi;
+			sourceTree = "<group>";
+		};
+		525244072039602500B90DF9 /* CategoryCellAPI */ = {
+			isa = PBXGroup;
+			children = (
+				525244052039601300B90DF9 /* CategoryAPITableViewCell.swift */,
+			);
+			path = CategoryCellAPI;
 			sourceTree = "<group>";
 		};
 		525FEDB62008830A0095583D /* TripDetailsflow */ = {
@@ -318,55 +280,13 @@
 			path = ProfileTablecells;
 			sourceTree = "<group>";
 		};
-		526726A22020B20300F151AB /* Inbox */ = {
-			isa = PBXGroup;
-			children = (
-				526726A82022D39F00F151AB /* InboxTableViewController.swift */,
-				526726A72022D21900F151AB /* inboxCell */,
-			);
-			name = Inbox;
-			path = Welcome/Inbox;
-			sourceTree = "<group>";
-		};
-		526726A72022D21900F151AB /* inboxCell */ = {
-			isa = PBXGroup;
-			children = (
-				52417E4F20233A4D000DC499 /* inboxCell1TableViewCell.swift */,
-				52417E5120233B25000DC499 /* inboxCell2TableViewCell.swift */,
-			);
-			path = inboxCell;
-			sourceTree = "<group>";
-		};
-		5293BB09202823D90016E34C /* CategoryTab */ = {
-			isa = PBXGroup;
-			children = (
-				5293BB132029AEF40016E34C /* CategoryTableViewController.swift */,
-				5293BB0E202834160016E34C /* CategoryTabCell */,
-			);
-			path = CategoryTab;
-			sourceTree = "<group>";
-		};
-		5293BB0E202834160016E34C /* CategoryTabCell */ = {
-			isa = PBXGroup;
-			children = (
-				5293BB172029BA740016E34C /* AirportTableViewCell.swift */,
-				52B4C29E202AC2A000FB0FBE /* EventsTableViewCell.swift */,
-				52B4C2A0202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift */,
-				52B4C2A6202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift */,
-				52B4C2A8202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift */,
-				52B4C2AA202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift */,
-				52212462202B0281006DA95A /* AdventureTourTableViewCell.swift */,
-			);
-			path = CategoryTabCell;
-			sourceTree = "<group>";
-		};
 		52C18A001FCEEE0600433A7D = {
 			isa = PBXGroup;
 			children = (
 				52C18A0B1FCEEE0600433A7D /* tab test */,
 				52C18A0A1FCEEE0600433A7D /* Products */,
-				37E692B486BEEFB23D588AFC /* Pods */,
 				30304800D8D5A20309C68BAD /* Frameworks */,
+				81CC76EED9B878E6A5152289 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -383,13 +303,12 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
-				5293BB09202823D90016E34C /* CategoryTab */,
+				5252440420395FC200B90DF9 /* CategoryTabApi */,
+				52CEFF2F2034431000D097EF /* Inbox */,
+				52CEFF32203444F000D097EF /* Welcome */,
 				52417E5320234642000DC499 /* TripsPurchased */,
-				526726A22020B20300F151AB /* Inbox */,
 				526726862020791E00F151AB /* ProfileTableViewController */,
 				525FEDB62008830A0095583D /* TripDetailsflow */,
-				5215D8861FE8ECAC00F842B1 /* CategoriesImageSource */,
-				5215D89E1FE90E1F00F842B1 /* ImageSource */,
 				52617A681FE2B3770012FF28 /* CategoriesCollectionViewCell.swift */,
 				57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */,
 				524D4E241FF64C77002A8F86 /* Main.storyboard */,
@@ -416,6 +335,19 @@
 			path = BookingOptionsCell;
 			sourceTree = "<group>";
 		};
+		81CC76EED9B878E6A5152289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3134FE61E4172AAEE313317F /* Pods-tab test.debug.xcconfig */,
+				5D35076A2B09580FF6F51DFF /* Pods-tab test.release.xcconfig */,
+				5247D3EBD7B7BA9FA90251BC /* Pods-tab testTests.debug.xcconfig */,
+				BE0A30F9E380A7A8CADF3561 /* Pods-tab testTests.release.xcconfig */,
+				537DCB087068C636BCB4E4B0 /* Pods-tab testUITests.debug.xcconfig */,
+				EBB9753A30E662A6B72CC60B /* Pods-tab testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -429,6 +361,7 @@
 				2CF6F367073F800374D9299C /* [CP] Copy Pods Resources */,
 				52617A241FE017770012FF28 /* Frameworks */,
 				76162DCBC4713B196D9D81FF /* [CP] Embed Pods Frameworks */,
+				5252441D203999C900B90DF9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,9 +376,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C18A361FCEEE0700433A7D /* Build configuration list for PBXNativeTarget "tab testTests" */;
 			buildPhases = (
+				E0EFD36DCFD1A84B9EC850E7 /* [CP] Check Pods Manifest.lock */,
 				52C18A1B1FCEEE0600433A7D /* Sources */,
 				52C18A1C1FCEEE0600433A7D /* Frameworks */,
 				52C18A1D1FCEEE0600433A7D /* Resources */,
+				6523C2E4B49313833D3169A3 /* [CP] Embed Pods Frameworks */,
+				6E39BAF3797B94D709BFDDE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -461,9 +397,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52C18A391FCEEE0700433A7D /* Build configuration list for PBXNativeTarget "tab testUITests" */;
 			buildPhases = (
+				446D41EF3B5E6C8A29A4048E /* [CP] Check Pods Manifest.lock */,
 				52C18A261FCEEE0600433A7D /* Sources */,
 				52C18A271FCEEE0600433A7D /* Frameworks */,
 				52C18A281FCEEE0600433A7D /* Resources */,
+				8A0AA3D1B808E02194BCD06E /* [CP] Embed Pods Frameworks */,
+				ED05BD1346ACA0BBD92E84D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,22 +466,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
-				52EF894C1FDBF2BD002CE36A /* MytripsImage.png in Resources */,
+				5252441A203999B200B90DF9 /* Alamofire.framework.dSYM in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
-				5215D89C1FE90ACF00F842B1 /* inbox1600.png in Resources */,
-				52617A211FDFE21B0012FF28 /* Perak.jpeg in Resources */,
-				5215D8991FE8FB5000F842B1 /* teambuilding.jpg in Resources */,
-				52617A201FDFE21B0012FF28 /* sabah.jpeg in Resources */,
-				5215D8971FE8FB5000F842B1 /* Sightseeing-Tour.jpg in Resources */,
-				5215D8981FE8FB5000F842B1 /* adventure-tour.jpg in Resources */,
-				52617A271FE139590012FF28 /* kedah.jpeg in Resources */,
+				52CEFF33203444F000D097EF /* Welcome in Resources */,
 				524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */,
-				5215D8941FE8FB5000F842B1 /* airport.jpg in Resources */,
-				52617A1D1FDFE1530012FF28 /* johor.jpeg in Resources */,
-				5215D8921FE8FB5000F842B1 /* student-summercamp.jpg in Resources */,
-				5215D8951FE8FB5000F842B1 /* MPV-Rental.jpg in Resources */,
+				52CEFF302034431000D097EF /* Inbox in Resources */,
 				524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */,
-				5215D89A1FE8FB5000F842B1 /* events.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +525,54 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab test/Pods-tab test-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		446D41EF3B5E6C8A29A4048E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tab testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6523C2E4B49313833D3169A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E39BAF3797B94D709BFDDE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		76162DCBC4713B196D9D81FF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -604,18 +581,62 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tab test/Pods-tab test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab test/Pods-tab test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0AA3D1B808E02194BCD06E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0EFD36DCFD1A84B9EC850E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tab testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED05BD1346ACA0BBD92E84D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -625,12 +646,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52212463202B0281006DA95A /* AdventureTourTableViewCell.swift in Sources */,
 				52672683201F0DAD00F151AB /* TravellerInfoBookingDetailTableViewCell.swift in Sources */,
-				52B4C2AB202AC61600FB0FBE /* StudentSumerCampTableViewCell.swift in Sources */,
 				52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */,
 				526726912020986000F151AB /* PromoCodeTableViewCell.swift in Sources */,
-				52B4C2A7202AC5C300FB0FBE /* SightseeingTourTableViewCell.swift in Sources */,
+				525244062039601300B90DF9 /* CategoryAPITableViewCell.swift in Sources */,
 				52168A3A2011E26C00A52EBB /* TripMapTableViewCell.swift in Sources */,
 				52672685201F0EF000F151AB /* PaymentSummaryBookingDetailsTableViewCell.swift in Sources */,
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
@@ -639,26 +658,20 @@
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
 				526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */,
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
-				52B4C2A1202AC2AF00FB0FBE /* MpvRentalTableViewCell.swift in Sources */,
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
 				52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
-				526726A92022D39F00F151AB /* InboxTableViewController.swift in Sources */,
 				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
-				5293BB182029BA740016E34C /* AirportTableViewCell.swift in Sources */,
 				52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */,
 				5267269D202098CF00F151AB /* EmergencyTableViewCell.swift in Sources */,
 				5267268B2020969E00F151AB /* ProfilePictureNameTableViewCell.swift in Sources */,
-				52417E5020233A4D000DC499 /* inboxCell1TableViewCell.swift in Sources */,
 				52617A691FE2B3770012FF28 /* CategoriesCollectionViewCell.swift in Sources */,
 				52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */,
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */,
 				5267268F202097B600F151AB /* ChangePasswordTableViewCell.swift in Sources */,
 				52672699202098BB00F151AB /* WebsiteTableViewCell.swift in Sources */,
-				5293BB142029AEF40016E34C /* CategoryTableViewController.swift in Sources */,
-				52417E5220233B25000DC499 /* inboxCell2TableViewCell.swift in Sources */,
 				52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */,
 				52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */,
 				52672697202098A900F151AB /* InstagramTableViewCell.swift in Sources */,
@@ -666,12 +679,11 @@
 				52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */,
 				52C18A0F1FCEEE0600433A7D /* FirstViewController.swift in Sources */,
 				5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */,
-				52B4C2A9202AC5E300FB0FBE /* TeamBuildingTableViewCell.swift in Sources */,
 				526726932020987A00F151AB /* WishListTableViewCell.swift in Sources */,
 				52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */,
 				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
 				526726952020989900F151AB /* FacebookTableViewCell.swift in Sources */,
-				52B4C29F202AC2A000FB0FBE /* EventsTableViewCell.swift in Sources */,
+				52524409203960A400B90DF9 /* CategoryTabsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,12 +837,16 @@
 		};
 		52C18A341FCEEE0700433A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1B2AA82E2803C56697D1C6D /* Pods-tab test.debug.xcconfig */;
+			baseConfigurationReference = 3134FE61E4172AAEE313317F /* Pods-tab test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHF9UYKHEU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "tab test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -844,12 +860,16 @@
 		};
 		52C18A351FCEEE0700433A7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DB55857AD0EC0AB12528EE6 /* Pods-tab test.release.xcconfig */;
+			baseConfigurationReference = 5D35076A2B09580FF6F51DFF /* Pods-tab test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MHF9UYKHEU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "tab test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -863,6 +883,7 @@
 		};
 		52C18A371FCEEE0700433A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5247D3EBD7B7BA9FA90251BC /* Pods-tab testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -879,6 +900,7 @@
 		};
 		52C18A381FCEEE0700433A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0A30F9E380A7A8CADF3561 /* Pods-tab testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -895,6 +917,7 @@
 		};
 		52C18A3A1FCEEE0700433A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537DCB087068C636BCB4E4B0 /* Pods-tab testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -910,6 +933,7 @@
 		};
 		52C18A3B1FCEEE0700433A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB9753A30E662A6B72CC60B /* Pods-tab testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

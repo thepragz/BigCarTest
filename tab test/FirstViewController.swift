@@ -15,11 +15,12 @@ class FirstViewController: UIViewController, UICollectionViewDelegate, UICollect
 
     
     @IBOutlet weak var sampleView: UICollectionView!
-    let imageArray = ["Perak.jpeg","sabah.jpeg","johor.jpeg","kedah.jpeg"]
+    let imageArray = ["Perak","sabah","johor","kedah"]
     let titleArray = ["Perak","Sabah","Johor","Kedah"]
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

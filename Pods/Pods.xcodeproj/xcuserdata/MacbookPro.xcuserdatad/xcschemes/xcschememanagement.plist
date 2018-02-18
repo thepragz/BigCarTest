@@ -11,21 +11,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Kingfisher.xcscheme</key>
+		<key>Pods-tab test.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-tab test.xcscheme</key>
+		<key>Pods-tab testTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>SwiftyJSON.xcscheme</key>
+		<key>Pods-tab testUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
