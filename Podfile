@@ -7,6 +7,10 @@ target 'tab test' do
 
 pod 'Alamofire'
 
+pod 'AlamofireImage', '~> 3.3'
+
+
+
   # Pods for tab test
 
   target 'tab testTests' do
