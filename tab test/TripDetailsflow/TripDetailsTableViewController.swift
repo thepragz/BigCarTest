@@ -7,6 +7,9 @@
 
 import UIKit
 import MapKit
+import Alamofire
+import AlamofireImage
+
 
 
 class TripDetailsTableViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {

@@ -16,6 +16,10 @@
 		52168A3C2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */; };
 		52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */; };
 		52168A402011ECCA00A52EBB /* TripDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */; };
+		522E681120414A0900992C63 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522E680F20414A0900992C63 /* AlamofireImage.framework */; };
+		522E681220414A0900992C63 /* AlamofireImage.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 522E681020414A0900992C63 /* AlamofireImage.framework.dSYM */; };
+		522E681320414A1C00992C63 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522E680F20414A0900992C63 /* AlamofireImage.framework */; };
+		522E681420414A1C00992C63 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 522E680F20414A0900992C63 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52417E582023473C000DC499 /* TripsCell1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */; };
 		52417E5A20234B18000DC499 /* TripsPurchasedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */; };
 		524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524D4E1B1FF63217002A8F86 /* ReviewerDetails.xib */; };
@@ -87,6 +91,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				5252441C203999C900B90DF9 /* Alamofire.framework in Embed Frameworks */,
+				522E681420414A1C00992C63 /* AlamofireImage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +109,8 @@
 		52168A3B2011E2CC00A52EBB /* TripActionButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripActionButtonTableViewCell.swift; sourceTree = "<group>"; };
 		52168A3D2011EC5B00A52EBB /* TripReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripReviewsTableViewCell.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsCells/TripReviewsTableViewCell.swift"; sourceTree = "<absolute>"; };
 		52168A3F2011ECCA00A52EBB /* TripDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TripDetailsTableViewController.swift; path = "/Users/MacbookPro/Desktop/xcode test/BigcarTest/BigCarTest/tab test/TripDetailsflow/TripDetailsTableViewController.swift"; sourceTree = "<absolute>"; };
+		522E680F20414A0900992C63 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		522E681020414A0900992C63 /* AlamofireImage.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = AlamofireImage.framework.dSYM; path = Carthage/Build/iOS/AlamofireImage.framework.dSYM; sourceTree = "<group>"; };
 		52417E572023473C000DC499 /* TripsCell1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsCell1TableViewCell.swift; sourceTree = "<group>"; };
 		52417E5920234B18000DC499 /* TripsPurchasedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsPurchasedTableViewController.swift; sourceTree = "<group>"; };
 		5247D3EBD7B7BA9FA90251BC /* Pods-tab testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab testTests/Pods-tab testTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5252441B203999C900B90DF9 /* Alamofire.framework in Frameworks */,
+				522E681320414A1C00992C63 /* AlamofireImage.framework in Frameworks */,
 				52524419203999B200B90DF9 /* Alamofire.framework in Frameworks */,
 				CBD8F780B59BBE6F17986417 /* Pods_tab_test.framework in Frameworks */,
+				522E681120414A0900992C63 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +199,8 @@
 		30304800D8D5A20309C68BAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				522E680F20414A0900992C63 /* AlamofireImage.framework */,
+				522E681020414A0900992C63 /* AlamofireImage.framework.dSYM */,
 				52524417203999B100B90DF9 /* Alamofire.framework */,
 				52524418203999B100B90DF9 /* Alamofire.framework.dSYM */,
 				CAB4D4E561010366DDB9556C /* Pods_tab_test.framework */,
@@ -250,6 +261,7 @@
 		525244202039AECA00B90DF9 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				5252441E2039AEBB00B90DF9 /* WelcomeViewController.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -346,7 +358,6 @@
 			children = (
 				525244272039AEFF00B90DF9 /* Inbox */,
 				525244202039AECA00B90DF9 /* Welcome */,
-				5252441E2039AEBB00B90DF9 /* WelcomeViewController.swift */,
 				5252440420395FC200B90DF9 /* CategoryTabApi */,
 				52417E5320234642000DC499 /* TripsPurchased */,
 				526726862020791E00F151AB /* ProfileTableViewController */,
@@ -510,6 +521,7 @@
 				52C18A191FCEEE0600433A7D /* LaunchScreen.storyboard in Resources */,
 				5252441A203999B200B90DF9 /* Alamofire.framework.dSYM in Resources */,
 				52C18A161FCEEE0600433A7D /* Assets.xcassets in Resources */,
+				522E681220414A0900992C63 /* AlamofireImage.framework.dSYM in Resources */,
 				524D4E1C1FF63217002A8F86 /* ReviewerDetails.xib in Resources */,
 				524D4E251FF64C78002A8F86 /* Main.storyboard in Resources */,
 			);

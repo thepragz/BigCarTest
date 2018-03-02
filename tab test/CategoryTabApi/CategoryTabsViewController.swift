@@ -8,6 +8,8 @@
 
 import UIKit
 import Alamofire
+import AlamofireImage
+
 
 class CategoryTabsViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
     
@@ -49,6 +51,19 @@ class CategoryTabsViewController: UIViewController, UITableViewDataSource,UITabl
         if self.categoriesName.count > 0 {
             let eachCategory = categoriesName[indexPath.row]
              cell.categoryTitleLbl?.text = (eachCategory["servicecat_name"] as? String) ?? ""
+            if let imageUrl = eachCategory["servicecat_image"] as? String{
+                Alamofire.request(imageUrl).responseImage(completionHandler: {(response) in
+                    
+                    print(response)
+                    
+                    if let image = response.result.value {
+                        
+                        cell.categoryImg?.image = image
+                    }
+                     
+                })
+            }
+            
         
         }
         return cell
