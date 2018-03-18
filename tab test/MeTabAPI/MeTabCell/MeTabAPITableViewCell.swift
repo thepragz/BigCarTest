@@ -1,17 +1,19 @@
 //
-//  TripsCell1TableViewCell.swift
+//  MeTabAPITableViewCell.swift
 //  tab test
 //
-//  Created by Macbook Pro on 01/02/2018.
+//  Created by Macbook Pro on 18/03/2018.
 //  Copyright © 2018 Macbook Pro. All rights reserved.
 //
 
 import UIKit
 
-class TripsCell1TableViewCell: UITableViewCell {
+class MeTabAPITableViewCell: UITableViewCell {
     
+    @IBOutlet var meTabMenuTitleLbl: UILabel!
     
-
+    @IBOutlet var meTabTitleBtn: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

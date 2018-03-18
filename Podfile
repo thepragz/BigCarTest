@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '11.2'
+ platform :ios, '11.2'
 
 target 'tab test' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,6 +8,8 @@ target 'tab test' do
 pod 'Alamofire'
 
 pod 'AlamofireImage', '~> 3.3'
+
+pod 'SwiftyJSON'
 
 
 
