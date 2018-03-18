@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IG9-xN-E4V">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -906,18 +906,6 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s1c-jd-9Hy">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="BigCar" id="UIg-Se-bsk">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" id="wTQ-q6-a6h">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3g4-ve-r32">
-                                                <rect key="frame" x="16" y="0.0" width="76" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                            </button>
-                                        </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="search" id="xKO-XU-SMl"/>
-                                    </navigationItem>
-                                </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9xd-tM-Qdq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -1004,20 +992,68 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0nK-5v-UPs" userLabel="SideView">
+                                <rect key="frame" x="0.0" y="64" width="244" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fJw-xD-dbY">
+                                        <rect key="frame" x="0.0" y="0.0" width="244" height="603"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="POT-GM-dPF" customClass="sideMenuTableViewCell" customModule="tab_test" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="28" width="244" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="POT-GM-dPF" id="wsA-AK-dGb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="244" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQf-lc-vag">
+                                                            <rect key="frame" x="65" y="0.0" width="179" height="44"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="2B1-oy-tFk">
+                                                            <rect key="frame" x="15" y="5" width="39" height="33"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="sideMenuImg" destination="2B1-oy-tFk" id="Zbj-N0-baW"/>
+                                                    <outlet property="titleSideMenu" destination="JQf-lc-vag" id="zd7-C2-G8q"/>
+                                                </connections>
+                                            </tableViewCell>
+                                        </prototypes>
+                                        <connections>
+                                            <outlet property="dataSource" destination="IG9-xN-E4V" id="uLX-2Z-wrg"/>
+                                            <outlet property="delegate" destination="IG9-xN-E4V" id="UbE-aM-arJ"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="CgC-vr-pZa"/>
                     </view>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="IEi-vv-YrQ"/>
                     <value key="contentSizeForViewInPopover" type="size" width="375" height="1500"/>
                     <connections>
                         <outlet property="bannerImg" destination="YKD-lb-DAA" id="azj-lk-Z7L"/>
                         <outlet property="bannerLbl" destination="fO9-WM-Np1" id="ng6-0g-DlZ"/>
                         <outlet property="popularTripsUICV" destination="zZ6-2U-FHh" id="KjC-6v-cu1"/>
+                        <outlet property="sideBar" destination="fJw-xD-dbY" id="b3c-TP-evg"/>
+                        <outlet property="sideMenu" destination="fJw-xD-dbY" id="Ugn-0R-JhX"/>
+                        <outlet property="sideView" destination="0nK-5v-UPs" id="54N-Jf-K3F"/>
+                        <outlet property="view" destination="fJw-xD-dbY" id="VOr-ny-LO6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pla-Lr-vsy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1183" y="-2664"/>
+            <point key="canvasLocation" x="-2066" y="-2633"/>
         </scene>
         <!--Welcome View Controller-->
         <scene sceneID="J9u-ot-LEX">
@@ -1700,6 +1736,7 @@
         <image name="clock" width="29" height="30"/>
         <image name="dress-hanger" width="30" height="30"/>
         <image name="email" width="30" height="30"/>
+        <image name="facebook" width="30" height="30"/>
         <image name="info" width="30" height="30"/>
         <image name="johor" width="120" height="120"/>
         <image name="love" width="30" height="30"/>

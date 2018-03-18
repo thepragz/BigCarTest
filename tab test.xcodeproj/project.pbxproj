@@ -11,6 +11,7 @@
 		52153601205E3963007AA311 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153600205E3963007AA311 /* NearbyViewController.swift */; };
 		52153604205E63A7007AA311 /* MeTabAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153603205E63A7007AA311 /* MeTabAPIViewController.swift */; };
 		52153607205E63F4007AA311 /* MeTabAPITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153606205E63F4007AA311 /* MeTabAPITableViewCell.swift */; };
+		5215360B205E7C54007AA311 /* sideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215360A205E7C54007AA311 /* sideMenuTableViewCell.swift */; };
 		52168A2E2011DEFD00A52EBB /* TripTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */; };
 		52168A302011E03D00A52EBB /* TripPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */; };
 		52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */; };
@@ -106,6 +107,7 @@
 		52153600205E3963007AA311 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		52153603205E63A7007AA311 /* MeTabAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTabAPIViewController.swift; sourceTree = "<group>"; };
 		52153606205E63F4007AA311 /* MeTabAPITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTabAPITableViewCell.swift; sourceTree = "<group>"; };
+		5215360A205E7C54007AA311 /* sideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewCell.swift; sourceTree = "<group>"; };
 		52168A2D2011DEFD00A52EBB /* TripTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTitleTableViewCell.swift; sourceTree = "<group>"; };
 		52168A2F2011E03D00A52EBB /* TripPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPriceTableViewCell.swift; sourceTree = "<group>"; };
 		52168A312011E0AB00A52EBB /* TripIconsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripIconsTableViewCell.swift; sourceTree = "<group>"; };
@@ -239,6 +241,14 @@
 				52153606205E63F4007AA311 /* MeTabAPITableViewCell.swift */,
 			);
 			path = MeTabCell;
+			sourceTree = "<group>";
+		};
+		52153609205E7C17007AA311 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5215360A205E7C54007AA311 /* sideMenuTableViewCell.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		52168A2C2011DD5E00A52EBB /* TripDetailsCells */ = {
@@ -416,6 +426,7 @@
 			isa = PBXGroup;
 			children = (
 				52F962FB204A7DD600BD8FC4 /* FrontViewController.swift */,
+				52153609205E7C17007AA311 /* SideMenu */,
 				52F962FD204A7DE700BD8FC4 /* Front accessories */,
 			);
 			path = "Front TEST";
@@ -753,6 +764,7 @@
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
 				525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
+				5215360B205E7C54007AA311 /* sideMenuTableViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
 				526726A12020A62500F151AB /* ProfileTableViewController.swift in Sources */,
 				52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */,
