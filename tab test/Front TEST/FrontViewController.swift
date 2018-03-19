@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import Kingfisher
 
 
 class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDelegate{
@@ -50,9 +51,9 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sideMenu.isHidden = true
+        sideMenu.isHidden = false // true
         sideBar.backgroundColor = UIColor.groupTableViewBackground
-        isSideViewOpen = false
+        isSideViewOpen = true // false
         
        loadData()//below Alamofire function
        
@@ -60,12 +61,12 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
         
     }
   
-    @IBAction func sideMenuBtn(_ sender: Any) {
-        sideBar.isHidden = false
-        sideView.isHidden = false
-        
-        self.view.bringSubview(toFront: sideView)
-    }
+//    @IBAction func sideMenuBtn(_ sender: Any) {
+//        sideBar.isHidden = false
+//        sideView.isHidden = false
+//
+//        self.view.bringSubview(toFront: sideView)
+//    }
     
     
     //sidemenu button function
@@ -78,7 +79,12 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
             if((responseData.result.value) != nil) {
                 let swiftyJsonVar = JSON(responseData.result.value!)
                 
-                    self.bannerLbl?.text = swiftyJsonVar["data"][1]["banner_title2"].stringValue
+                    //self.bannerLbl?.text = swiftyJsonVar["data"][1]["banner_title2"].stringValue
+                
+                self.bannerLbl?.text = swiftyJsonVar["data"][1]["banner_title2"].stringValue
+                
+                let url = URL(string: "banner_image")!
+                self.bannerImg?.kf.setImage(with: url)
                 
                 }
                 

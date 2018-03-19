@@ -11,6 +11,7 @@ pod 'AlamofireImage', '~> 3.3'
 
 pod 'SwiftyJSON'
 
+pod 'Kingfisher', '~> 4.0'
 
 
   # Pods for tab test

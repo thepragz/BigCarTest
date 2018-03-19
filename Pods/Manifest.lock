@@ -2,18 +2,21 @@ PODS:
   - Alamofire (4.7.0)
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
+  - Kingfisher (4.6.3)
   - SwiftyJSON (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage (~> 3.3)
+  - Kingfisher (~> 4.0)
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: c3ecf88036b94cb49cd11eb39f3b75ecd8354b84
+PODFILE CHECKSUM: a3d71432e04a928cfe5dcdedc7f53ed31a90fc3f
 
 COCOAPODS: 1.4.0
