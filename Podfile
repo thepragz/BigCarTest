@@ -13,6 +13,8 @@ pod 'SwiftyJSON'
 
 pod 'Kingfisher', '~> 4.0'
 
+pod "ImageSlideshow/Alamofire"
+
 
   # Pods for tab test
 

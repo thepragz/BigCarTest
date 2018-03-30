@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3D098CDED4C462A30055C619 /* Pods_tab_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A789EDF126359E92AE3CC4 /* Pods_tab_testUITests.framework */; };
+		520E2D722068B2890017E7DC /* TourCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E2D712068B2890017E7DC /* TourCollectionViewController.swift */; };
+		520E2D742068B3370017E7DC /* tourCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E2D732068B3370017E7DC /* tourCollectionViewCell.swift */; };
+		520E2D762068BF940017E7DC /* TestFrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E2D752068BF940017E7DC /* TestFrontViewController.swift */; };
 		52153601205E3963007AA311 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153600205E3963007AA311 /* NearbyViewController.swift */; };
 		52153604205E63A7007AA311 /* MeTabAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153603205E63A7007AA311 /* MeTabAPIViewController.swift */; };
 		52153607205E63F4007AA311 /* MeTabAPITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52153606205E63F4007AA311 /* MeTabAPITableViewCell.swift */; };
@@ -62,7 +65,7 @@
 		52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */; };
 		52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */; };
 		52EEE9A92014768D00D4C48B /* TripTotalPriceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */; };
-		52F962FC204A7DD600BD8FC4 /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F962FB204A7DD600BD8FC4 /* FrontViewController.swift */; };
+		52F962FC204A7DD600BD8FC4 /* CorruptedFrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F962FB204A7DD600BD8FC4 /* CorruptedFrontViewController.swift */; };
 		57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */; };
 		57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */; };
 		CBD8F780B59BBE6F17986417 /* Pods_tab_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB4D4E561010366DDB9556C /* Pods_tab_test.framework */; };
@@ -104,6 +107,9 @@
 /* Begin PBXFileReference section */
 		27CB12A277B2949A7F61EAB7 /* Pods_tab_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tab_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3134FE61E4172AAEE313317F /* Pods-tab test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab test/Pods-tab test.debug.xcconfig"; sourceTree = "<group>"; };
+		520E2D712068B2890017E7DC /* TourCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCollectionViewController.swift; sourceTree = "<group>"; };
+		520E2D732068B3370017E7DC /* tourCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tourCollectionViewCell.swift; sourceTree = "<group>"; };
+		520E2D752068BF940017E7DC /* TestFrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrontViewController.swift; sourceTree = "<group>"; };
 		52153600205E3963007AA311 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		52153603205E63A7007AA311 /* MeTabAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTabAPIViewController.swift; sourceTree = "<group>"; };
 		52153606205E63F4007AA311 /* MeTabAPITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTabAPITableViewCell.swift; sourceTree = "<group>"; };
@@ -160,7 +166,7 @@
 		52EEE9A4201473C700D4C48B /* TripTimeSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTimeSelectorTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A62014750000D4C48B /* TripPackageQuantityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPackageQuantityTableViewCell.swift; sourceTree = "<group>"; };
 		52EEE9A82014768D00D4C48B /* TripTotalPriceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTotalPriceTableViewCell.swift; sourceTree = "<group>"; };
-		52F962FB204A7DD600BD8FC4 /* FrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		52F962FB204A7DD600BD8FC4 /* CorruptedFrontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorruptedFrontViewController.swift; sourceTree = "<group>"; };
 		537DCB087068C636BCB4E4B0 /* Pods-tab testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tab testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tab testUITests/Pods-tab testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		57777B4A1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		57777B4E1FE7C1C300D8BE0F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +222,15 @@
 				59A789EDF126359E92AE3CC4 /* Pods_tab_testUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520E2D682068AC6E0017E7DC /* Tour Tab */ = {
+			isa = PBXGroup;
+			children = (
+				520E2D712068B2890017E7DC /* TourCollectionViewController.swift */,
+				520E2D732068B3370017E7DC /* tourCollectionViewCell.swift */,
+			);
+			path = "Tour Tab";
 			sourceTree = "<group>";
 		};
 		521535FF205E3927007AA311 /* NearbyTab */ = {
@@ -380,6 +395,7 @@
 		52C18A0B1FCEEE0600433A7D /* tab test */ = {
 			isa = PBXGroup;
 			children = (
+				520E2D682068AC6E0017E7DC /* Tour Tab */,
 				52153602205E6356007AA311 /* MeTabAPI */,
 				521535FF205E3927007AA311 /* NearbyTab */,
 				52F962FA204A7D8700BD8FC4 /* Front TEST */,
@@ -425,7 +441,8 @@
 		52F962FA204A7D8700BD8FC4 /* Front TEST */ = {
 			isa = PBXGroup;
 			children = (
-				52F962FB204A7DD600BD8FC4 /* FrontViewController.swift */,
+				52F962FB204A7DD600BD8FC4 /* CorruptedFrontViewController.swift */,
+				520E2D752068BF940017E7DC /* TestFrontViewController.swift */,
 				52153609205E7C17007AA311 /* SideMenu */,
 				52F962FD204A7DE700BD8FC4 /* Front accessories */,
 			);
@@ -685,6 +702,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-tab test/Pods-tab test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -692,6 +710,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -765,6 +784,7 @@
 				5252441F2039AEBC00B90DF9 /* WelcomeViewController.swift in Sources */,
 				52168A322011E0AB00A52EBB /* TripIconsTableViewCell.swift in Sources */,
 				525FEDB520087FD70095583D /* BookingDetailsTableViewController.swift in Sources */,
+				520E2D742068B3370017E7DC /* tourCollectionViewCell.swift in Sources */,
 				57777B4B1FE7BE5D00D8BE0F /* CustomCollectionViewCell.swift in Sources */,
 				5215360B205E7C54007AA311 /* sideMenuTableViewCell.swift in Sources */,
 				52C6721B1FD936A3002D55D1 /* SecondViewController.swift in Sources */,
@@ -774,6 +794,7 @@
 				52EEE9A32014721D00D4C48B /* TripDateSelectorTableViewCell.swift in Sources */,
 				52153607205E63F4007AA311 /* MeTabAPITableViewCell.swift in Sources */,
 				52168A342011E10300A52EBB /* TripAboutTableViewCell.swift in Sources */,
+				520E2D722068B2890017E7DC /* TourCollectionViewController.swift in Sources */,
 				525244222039AEE200B90DF9 /* InboxTableViewController.swift in Sources */,
 				52EEE9A72014750000D4C48B /* TripPackageQuantityTableViewCell.swift in Sources */,
 				5267268D202096F800F151AB /* EditProfileTableViewCell.swift in Sources */,
@@ -785,6 +806,7 @@
 				52C18A0D1FCEEE0600433A7D /* AppDelegate.swift in Sources */,
 				52168A3E2011EC5B00A52EBB /* TripReviewsTableViewCell.swift in Sources */,
 				5267268F202097B600F151AB /* ChangePasswordTableViewCell.swift in Sources */,
+				520E2D762068BF940017E7DC /* TestFrontViewController.swift in Sources */,
 				52153601205E3963007AA311 /* NearbyViewController.swift in Sources */,
 				52672699202098BB00F151AB /* WebsiteTableViewCell.swift in Sources */,
 				52EEE9A5201473C700D4C48B /* TripTimeSelectorTableViewCell.swift in Sources */,
@@ -796,7 +818,7 @@
 				5267269B202098C400F151AB /* OthersTableViewCell.swift in Sources */,
 				526726932020987A00F151AB /* WishListTableViewCell.swift in Sources */,
 				52672681201F099E00F151AB /* TitleBookingDetailsTableViewCell.swift in Sources */,
-				52F962FC204A7DD600BD8FC4 /* FrontViewController.swift in Sources */,
+				52F962FC204A7DD600BD8FC4 /* CorruptedFrontViewController.swift in Sources */,
 				57777B4F1FE7C1C300D8BE0F /* CategoryViewController.swift in Sources */,
 				526726952020989900F151AB /* FacebookTableViewCell.swift in Sources */,
 				52524409203960A400B90DF9 /* CategoryTabsViewController.swift in Sources */,

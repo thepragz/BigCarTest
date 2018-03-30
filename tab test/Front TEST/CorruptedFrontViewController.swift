@@ -12,28 +12,28 @@ import SwiftyJSON
 import Kingfisher
 
 
-class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDelegate{
+class FrontViewController: UIViewController {
 ////////sidemenucodes/////////////
-    var arrdata = ["Home","Login","Write Review","Credit Card ","Currency","Languange","Notification","Feedback","Contact Us","Settings","Privacy Policy","Term of Use","Careers"]
-    
+//    var arrdata = ["Home","Login","Write Review","Credit Card ","Currency","Languange","Notification","Feedback","Contact Us","Settings","Privacy Policy","Term of Use","Careers"]
+//
     @IBOutlet var sideView: UIView!
     
     @IBOutlet var sideBar: UITableView!
     
-    var isSideViewOpen: Bool = false
-    
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrdata.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:sideMenuTableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! sideMenuTableViewCell
-        
-        cell.titleSideMenu.text = arrdata[indexPath.row]
-        
-        return cell
-    }
+//    var isSideViewOpen: Bool = false
+//
+//
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return arrdata.count
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell:sideMenuTableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell") as! sideMenuTableViewCell
+//
+//        cell.titleSideMenu.text = arrdata[indexPath.row]
+//
+//        return cell
+//    }
     
   //////////////////
     
@@ -48,14 +48,19 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
     var arrRes = [[String:AnyObject]]()
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sideMenu.isHidden = false // true
-        sideBar.backgroundColor = UIColor.groupTableViewBackground
-        isSideViewOpen = true // false
+//        sideMenu.isHidden = false // true
+//        sideBar.backgroundColor = UIColor.groupTableViewBackground
+//        isSideViewOpen = true // false
         
        loadData()//below Alamofire function
+        
+        
+        
+ 
        
         // Do any additional setup after loading the view.
         
@@ -71,8 +76,7 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
     
     //sidemenu button function
     
-    
-    
+  
     func loadData(){
         
         Alamofire.request("https://gentle-atoll-11837.herokuapp.com/api/banners").responseJSON { (responseData) -> Void in
@@ -82,18 +86,22 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
                     //self.bannerLbl?.text = swiftyJsonVar["data"][1]["banner_title2"].stringValue
                 
                 self.bannerLbl?.text = swiftyJsonVar["data"][1]["banner_title2"].stringValue
-                
-                let url = URL(string: "banner_image")!
-                self.bannerImg?.kf.setImage(with: url)
-                
-                }
-                
             
+
+                 let url = URL(string: "https://gentle-atoll-11837.herokuapp.com/api/banner/1")!
+                let image = swiftyJsonVar["banner_image"]
+    self.bannerImg?.kf.setImage(with: url)
+//
+//                let url = URL(string: "banner_image")!
+//                self.bannerImg?.kf.setImage(with: url)
+
             print(responseData)
         }
         }
         
     }
+
+
     
 
 //        Alamofire.request("https://gentle-atoll-11837.herokuapp.com/api/banners").responseImage {
@@ -117,10 +125,10 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
 //        // Do any additional setup after loading the view.
    //}
 
-//      func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
+    override  func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 
 
     /*
@@ -135,3 +143,4 @@ class FrontViewController: UIViewController, UITableViewDataSource,UITableViewDe
 
 //}
 
+}
