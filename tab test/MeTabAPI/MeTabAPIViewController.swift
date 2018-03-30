@@ -8,19 +8,27 @@
 
 import UIKit
 
-class MeTabAPIViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class MeTabAPIViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet var meTabTableView: UITableView!
     
+    let meTableArray = ["My Account","Favorites","My Booking","Inbox", "My Saved Cards", "My Points", "Version 1.0.5"]
     
+    @IBOutlet var userProfilePicture: UIImageView!
     
-    @IBOutlet var myProfile: UICollectionView!
-    let imageArray = ["Perak","sabah","johor","kedah"]
-    let titleArray = ["Perak","Sabah","Johor","Kedah"]
     
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
+        //image//
+        
+        userProfilePicture.layer.cornerRadius = (userProfilePicture.frame.size.width) / 2
+        userProfilePicture.layer.masksToBounds = true
+        
+        self.meTabTableView.dataSource = self
+        self.meTabTableView.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -28,14 +36,17 @@ class MeTabAPIViewController: UIViewController, UICollectionViewDelegate, UIColl
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return imageArray.count
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return meTableArray.count
     }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
-        cell.imageView.image = UIImage(named: imageArray[indexPath.row])
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = meTabTableView.dequeueReusableCell(withIdentifier: "MeTabTableViewCell", for: indexPath) as! MeTabTableViewCell
+        
+        cell.metabTitle?.text = self.meTableArray[indexPath.row]
         
         return cell
     }
+    
+   
     
 }
