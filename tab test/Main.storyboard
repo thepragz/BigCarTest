@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Nw-oD-jt1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -1222,6 +1222,9 @@
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.84645226883561642" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginPage:" destination="4Nw-oD-jt1" eventType="touchUpInside" id="Hmh-0f-EXw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlk-2q-CDc">
                                 <rect key="frame" x="192" y="609" width="179" height="38"/>
@@ -1229,6 +1232,9 @@
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.84645226880000002" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Register"/>
+                                <connections>
+                                    <action selector="registerPage:" destination="4Nw-oD-jt1" eventType="touchUpInside" id="edC-aA-zrf"/>
+                                </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo_final_v2" translatesAutoresizingMaskIntoConstraints="NO" id="Bpc-tZ-5dN">
                                 <rect key="frame" x="64" y="142" width="241" height="261"/>
@@ -1241,14 +1247,13 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImage" destination="1UA-3z-6m9" id="UIf-j0-JJ4"/>
-                        <outlet property="loginButton" destination="w2V-7F-Xaa" id="g3w-dV-CLB"/>
                         <outlet property="logoImg" destination="Bpc-tZ-5dN" id="fQ5-TQ-EDB"/>
-                        <outlet property="registerButton" destination="Hlk-2q-CDc" id="bEk-88-W39"/>
+                        <segue destination="49e-Tb-3d3" kind="show" identifier="welcomeTab" id="JFq-YB-soW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a1e-LD-1Ex" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3134" y="-1204"/>
+            <point key="canvasLocation" x="-2210" y="-1866"/>
         </scene>
         <!--First Splash Screen View Controller-->
         <scene sceneID="rEM-U1-vyG">

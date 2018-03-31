@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,17 +25,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zgH-21-8Wh" secondAttribute="trailing" id="4q1-lM-y0c"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zgH-21-8Wh" secondAttribute="bottom" id="9Gz-Fa-vRy"/>
-                            <constraint firstItem="zgH-21-8Wh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NiU-Vc-mCF"/>
-                            <constraint firstItem="zgH-21-8Wh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OfB-OL-Wrz"/>
+                            <constraint firstItem="zgH-21-8Wh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6Q5-dZ-G0C"/>
+                            <constraint firstItem="zgH-21-8Wh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FEs-Ar-syJ"/>
+                            <constraint firstItem="zgH-21-8Wh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OsB-Lh-Ngn"/>
+                            <constraint firstAttribute="trailing" secondItem="zgH-21-8Wh" secondAttribute="trailing" id="zf4-SM-P1i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="oG9-eK-Gre"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-84" y="309.89505247376314"/>
+            <point key="canvasLocation" x="255.19999999999999" y="309.89505247376314"/>
         </scene>
     </scenes>
     <resources>

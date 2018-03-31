@@ -12,13 +12,28 @@ class WelcomeViewController: UIViewController {
 
     
     @IBOutlet var logoImg: UIImageView!
-    @IBOutlet var loginButton: UIButton!
-    @IBOutlet var registerButton: UIButton!
+//    @IBOutlet var loginButton: UIButton!
+//    @IBOutlet var registerButton: UIButton!
     
     @IBOutlet var backgroundImage: UIImageView!
     
+    @IBAction func loginPage(_ sender: UIButton) {
+        performSegue(withIdentifier: "welcomeTab", sender: self)
+        
+        
+    }
+    
+    @IBAction func registerPage(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "welcomeTab", sender: self)
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
         
