@@ -34,7 +34,9 @@ class FirstViewController: UIViewController, UICollectionViewDelegate, UICollect
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
-        //self.titleTest.text = titleArray[indexPath.row]
+        
+        cell.titleTest?.text = self.titleArray[indexPath.row]
+        
         cell.imageView.image = UIImage(named: imageArray[indexPath.row])
         
         return cell
