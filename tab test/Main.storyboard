@@ -81,39 +81,33 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="vk7-5X-qDa"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-QL-6kd">
-                                <rect key="frame" x="8" y="547" width="105" height="43"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tour2" translatesAutoresizingMaskIntoConstraints="NO" id="nvt-mV-NUq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="0.060680650680000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Trip details"/>
-                                <connections>
-                                    <action selector="test:" destination="9Cd-M4-Rdp" eventType="touchUpInside" id="NfH-LT-RYG"/>
-                                    <segue destination="h7H-3w-M6x" kind="show" identifier="testingui" id="Gsk-o6-36D"/>
-                                </connections>
-                            </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="playback" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xoa-8J-aab" userLabel="A">
-                                <rect key="frame" x="0.0" y="412" width="375" height="127"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="playback" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ddC-lH-KPb" userLabel="A">
+                                <rect key="frame" x="4" y="393" width="362" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1Lj-eP-dqV">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kyF-NW-5B0">
                                     <size key="itemSize" width="100" height="118"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Cell" id="FGc-GY-AeZ" customClass="CustomCollectionViewCell" customModule="tab_test">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="Cell" id="MdU-Vx-DCd" customClass="CustomCollectionViewCell" customModule="tab_test">
                                         <rect key="frame" x="0.0" y="4.5" width="100" height="118"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="118"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sabah" translatesAutoresizingMaskIntoConstraints="NO" id="2lw-y0-H1j">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sabah" translatesAutoresizingMaskIntoConstraints="NO" id="npW-Y5-SWK">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="80"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBB-bG-zp1">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sz7-lR-smQ">
                                                     <rect key="frame" x="0.0" y="79" width="100" height="39"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -122,27 +116,35 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="CBB-bG-zp1" firstAttribute="leading" secondItem="FGc-GY-AeZ" secondAttribute="leading" id="3Vp-zC-esA"/>
-                                            <constraint firstAttribute="trailing" secondItem="CBB-bG-zp1" secondAttribute="trailing" id="Fj1-Km-f4B"/>
-                                            <constraint firstAttribute="trailing" secondItem="CBB-bG-zp1" secondAttribute="trailing" id="ar0-e4-dSe"/>
-                                            <constraint firstItem="CBB-bG-zp1" firstAttribute="top" secondItem="FGc-GY-AeZ" secondAttribute="top" constant="79" id="eez-Eg-aLf"/>
-                                            <constraint firstAttribute="bottom" secondItem="CBB-bG-zp1" secondAttribute="bottom" id="ftM-yt-2JS"/>
-                                            <constraint firstItem="CBB-bG-zp1" firstAttribute="leading" secondItem="FGc-GY-AeZ" secondAttribute="leading" id="iYf-a8-5dz"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sz7-lR-smQ" secondAttribute="bottom" id="38H-YB-vzf"/>
+                                            <constraint firstItem="Sz7-lR-smQ" firstAttribute="leading" secondItem="MdU-Vx-DCd" secondAttribute="leading" id="6Y2-aS-0Yt"/>
+                                            <constraint firstItem="Sz7-lR-smQ" firstAttribute="leading" secondItem="MdU-Vx-DCd" secondAttribute="leading" id="Dr7-wS-cGw"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sz7-lR-smQ" secondAttribute="trailing" id="Egc-A9-f4t"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sz7-lR-smQ" secondAttribute="trailing" id="P5E-34-fUr"/>
+                                            <constraint firstItem="Sz7-lR-smQ" firstAttribute="top" secondItem="MdU-Vx-DCd" secondAttribute="top" constant="79" id="iMZ-uj-xfQ"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="imageView" destination="2lw-y0-H1j" id="8bN-GN-raz"/>
+                                            <outlet property="imageView" destination="npW-Y5-SWK" id="Rhf-gp-CUU"/>
+                                            <outlet property="titleTest" destination="Sz7-lR-smQ" id="7SP-dR-Q7x"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="Zzh-dC-Agp"/>
-                                    <outlet property="delegate" destination="9pv-A4-QxB" id="p6A-AZ-5cf"/>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="6k2-bO-VsU"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="VR0-k5-NXa"/>
                                 </connections>
                             </collectionView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tour2" translatesAutoresizingMaskIntoConstraints="NO" id="nvt-mV-NUq">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="141"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9h4-QL-6kd">
+                                <rect key="frame" x="4" y="528" width="105" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="0.060680650680000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Trip details"/>
+                                <connections>
+                                    <action selector="goDetailsPage:" destination="9pv-A4-QxB" eventType="touchUpInside" id="c8o-xh-wop"/>
+                                    <action selector="test:" destination="9Cd-M4-Rdp" eventType="touchUpInside" id="NfH-LT-RYG"/>
+                                    <segue destination="h7H-3w-M6x" kind="show" identifier="goToDetails" id="Gsk-o6-36D"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
@@ -889,7 +891,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="0.6231003852739726" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="0.44673052226027399" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="c51-VO-Epo" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>

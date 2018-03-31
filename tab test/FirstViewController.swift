@@ -24,7 +24,12 @@ class FirstViewController: UIViewController, UICollectionViewDelegate, UICollect
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    @IBAction func goDetailsPage(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "goToDetails", sender: self)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -42,5 +47,9 @@ class FirstViewController: UIViewController, UICollectionViewDelegate, UICollect
         return cell
     }
 
+    
+    
+    
+    
 }
 
