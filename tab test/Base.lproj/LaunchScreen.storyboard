@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController autoresizesArchivedViewToFullSize="NO" id="01J-lp-oVM" sceneMemberID="viewController">
@@ -18,25 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_final_v2" translatesAutoresizingMaskIntoConstraints="NO" id="zgH-21-8Wh">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.7986675942" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo_final_v2" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cki-C2-FSx">
+                                <rect key="frame" x="0.0" y="20" width="375" height="342"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zgH-21-8Wh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6Q5-dZ-G0C"/>
-                            <constraint firstItem="zgH-21-8Wh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FEs-Ar-syJ"/>
-                            <constraint firstItem="zgH-21-8Wh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="OsB-Lh-Ngn"/>
-                            <constraint firstAttribute="trailing" secondItem="zgH-21-8Wh" secondAttribute="trailing" id="zf4-SM-P1i"/>
+                            <constraint firstItem="cki-C2-FSx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EcF-2h-sTX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cki-C2-FSx" secondAttribute="bottom" constant="305" id="uU1-IA-1Nh"/>
+                            <constraint firstItem="cki-C2-FSx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xPt-iz-EX5"/>
+                            <constraint firstItem="cki-C2-FSx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yAK-Q4-l03"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wk5-Yi-GDD"/>
                     <navigationItem key="navigationItem" id="oG9-eK-Gre"/>
+                    <connections>
+                        <outlet property="view" destination="cki-C2-FSx" id="Jhy-fa-gWT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255.19999999999999" y="309.89505247376314"/>
+            <point key="canvasLocation" x="93.599999999999994" y="296.40179910044981"/>
         </scene>
     </scenes>
     <resources>
